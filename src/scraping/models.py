@@ -4,6 +4,7 @@ from .utils import for_cyrillic_to_eng
 
 
 class City(models.Model):
+    """Города"""
     name = models.CharField(max_length=100, verbose_name='Название города', unique=True)
     slug = models.CharField(max_length=100, blank=True, unique=True)
 
@@ -21,6 +22,7 @@ class City(models.Model):
 
 
 class Language(models.Model):
+    """Языки программирования"""
     name = models.CharField(max_length=100, verbose_name='Язык программирования', unique=True)
     slug = models.CharField(max_length=100, blank=True, unique=True)
 
@@ -38,6 +40,7 @@ class Language(models.Model):
 
 
 class Vacancy(models.Model):
+    """Вакансии"""
     url = models.URLField(unique=True)
     title = models.CharField(max_length=255, verbose_name='Заголовок вакансии')
     company = models.CharField(max_length=255, verbose_name='Компания')

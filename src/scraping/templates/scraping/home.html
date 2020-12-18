@@ -14,15 +14,23 @@
       <a href="{{ object.url }}" class="btn btn-primary">{{ object.salary }}</a>
     </div>
   </div>
+{% empty %}
+  <h3>К сожалению по вашему запросу ничего не найдено.</h3>
 {% endfor %}
 
-<form method="GET" action="">
-  <label>Город:</label><br>
-  <input type="text" name="city"><br>
-  <label>Специальность:</label><br>
-  <input type="text" name="language"><br>
-  <input type="submit" value="Submit">
-</form>
+<div class="rov">
+  <div class="col-md-6 ">
+    <form method="GET" action="">
+      <div class="form-group row">
+        <div class="col-auto">
+          {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Найти</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
 
 
 {% endblock %}
