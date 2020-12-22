@@ -48,7 +48,8 @@ class Vacancy(models.Model):
     city = models.ForeignKey('City', verbose_name='Город', on_delete=models.CASCADE)
     language = models.ForeignKey('Language', verbose_name='Язык программирования', on_delete=models.CASCADE)
     timestamp = models.DateField(auto_now_add=True, verbose_name='Дата создания вакансии')
-    salary = models.DecimalField(max_digits=8, decimal_places=2, verbose_name='Зарплата')
+    # salary = models.DecimalField(max_digits=8, decimal_places=2, verbose_name='Зарплата')
+    salary = models.CharField(max_length=50, verbose_name='Зарплата')
 
     class Meta:
         verbose_name = 'Вакансия'
