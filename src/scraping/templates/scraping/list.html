@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for object in object_list %}
+  <div class="card w-75 my-3">
+    <div class="card-header">
+      <h5><a href="{{ object.url }}">{{ object.title }}</a></h5>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"><p>{{ object.company }}</p></h5>
+      <p class="card-text">{{ object.description }}</p>
+      <p>{{ object.city.name }} | {{ object.language.name }} | <small>{{ object.timestamp|date:"d-m-Y" }}</small></p>
+      <a href="{{ object.url }}" class="btn btn-primary">{{ object.salary }}</a>
+    </div>
+  </div>
+{% empty %}
+  <h3>К сожалению по вашему запросу ничего не найдено.</h3>
+{% endfor %}
+
+<div class="row">
+  <div class="col">
+
+<div class="pagination">
+    <span class="step-links">
+        {% if object_list.has_previous %}
+            <a href="?city={{ city }}&language={{ language }}&page=1">&laquo; first</a>
+            <a href="?city={{ city }}&language={{ language }}&page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ object_list.number }} of {{ object_list.paginator.num_pages }}.
+        </span>
+
+        {% if object_list.has_next %}
+            <a href="?city={{ city }}&language={{ language }}&page={{ object_list.next_page_number }}">next</a>
+            <a href="?city={{ city }}&language={{ language }}&page={{ object_list.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+  </div>
+</div>
+
+<div class="rov">
+  <div class="col-md-6 ">
+    <form method="GET" action="{% url 'list' %}">
+      <div class="form-group row">
+        <div class="col-auto">
+          {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Найти</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+{% endblock %}
+
