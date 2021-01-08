@@ -4,7 +4,7 @@ from django.db.models.query import QuerySet
 from django.shortcuts import render
 
 from .forms import FindForm
-from .models import Vacancy
+from .models import Vacancy, City
 
 from django.views import generic
 
@@ -63,7 +63,7 @@ class VacancyView(generic.ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['form'] = FindForm()
+        context['form'] = FindForm(self.request.GET)
         context['city'] = self.request.GET.get('city')
         context['language'] = self.request.GET.get('language')
         return context

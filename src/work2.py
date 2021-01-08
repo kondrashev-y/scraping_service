@@ -15,7 +15,7 @@ domain = 'https://www.superjob.ru'
 
 if resp.status_code == 200:
     soup = BS(resp.content, 'html.parser')
-    main_div = soup.find('div', attrs={'class': '_1ID8B'})
+    main_div = soup.find('div', attrs={'class': '_3Qutk'})
     if main_div:
         # div_list = main_div.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy'})
         div_list = main_div.find_all('div', attrs={'class': 'f-test-vacancy-item'})

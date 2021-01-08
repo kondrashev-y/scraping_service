@@ -53,10 +53,10 @@ def for_hh(url, city=None, language=None):
                         'salary': salary, 'company': company, 'description': description,
                         'city_id': city, 'language_id': language
                     })
-                else:
-                    errors.append({'url': url, 'title': 'Div dose not exist'})
             else:
-                errors.append({'url': url, 'title': 'Page do not response'})
+                errors.append({'url': url, 'title': 'Div dose not exist'})
+        else:
+            errors.append({'url': url, 'title': 'Page do not response'})
     # for i in jobs:
     #     print(i[title], i[salary])
     return jobs, errors
@@ -72,7 +72,7 @@ def for_superjob(url, city=None, language=None):
 
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
-            main_div = soup.find('div', attrs={'class': '_1ID8B'})
+            main_div = soup.find('div', attrs={'class': '_3Qutk'})
             if main_div:
                 div_list = main_div.find_all('div', attrs={'class': 'f-test-vacancy-item'})
                 for div in div_list:
@@ -96,10 +96,10 @@ def for_superjob(url, city=None, language=None):
                         'salary': salary, 'company': company, 'description': description,
                         'city_id': city, 'language_id': language
                     })
-                else:
-                    errors.append({'url': url, 'title': 'Div dose not exist'})
             else:
-                errors.append({'url': url, 'title': 'Page do not response'})
+                errors.append({'url': url, 'title': 'Div dose not exist'})
+        else:
+            errors.append({'url': url, 'title': 'Page do not response'})
     return jobs, errors
 
 
@@ -134,10 +134,10 @@ def for_rabota(url, city=None, language=None):
                         'salary': salary, 'company': company.text, 'description': description,
                         'city_id': city, 'language_id': language
                     })
-                else:
-                    errors.append({'url': url, 'title': 'Div dose not exist'})
             else:
-                errors.append({'url': url, 'title': 'Page do not response'})
+                errors.append({'url': url, 'title': 'Div dose not exist'})
+        else:
+            errors.append({'url': url, 'title': 'Page do not response'})
     return jobs, errors
 
 

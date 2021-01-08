@@ -67,12 +67,15 @@ class Vacancy(models.Model):
 
 class Error(models.Model):
     """Ошибки при скрапинге"""
-    timestamp = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания ошибки')
+    timestamp = models.DateField(auto_now_add=True, verbose_name='Дата создания ошибки')
     data = jsonfield.JSONField()
     
     class Meta:
         verbose_name = 'Ошибка'
         verbose_name_plural = 'Ошибки'
+
+    def __str__(self):
+        return str(self.timestamp)
 
 
 class Urls(models.Model):

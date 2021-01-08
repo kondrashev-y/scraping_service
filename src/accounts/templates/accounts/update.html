@@ -7,17 +7,42 @@
 {% block content %}
 
 <div class="row">
-  <div class="col-md-4 mx-auto">
-    <h5 class="my-2">Настройки рассылки</h5>
+  <div class="col-md-6 mx-auto">
+    <h5 class="my-2">Настройки пользователя {{ user.email }}</h5>
     <form method="POST" class="" action="">
         {% csrf_token %}
-<!--      <div class="form-row align-items-center">-->
-<!--        <div class="col-auto">-->
-          {{ form.as_table }}
-    <button type="submit" class="btn btn-primary my-2">Сохранить</button>
-<!--        </div>-->
-<!--      </div>-->
+      <div class="form-group">
+          {{ form.as_p }}
+        <button type="submit" class="btn btn-primary my-0">Сохранить</button>
+      </div>
     </form>
+
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapseExample">
+    Дополниотельные города и вакансии
+    </button>
+    </p>
+    <div class="collapse" id="collapse">
+      <div class="card card-body">
+        <div class="col-md-13 my-0 mx-auto">
+          <p5>Если необходимого города или специальности Вы не нашли напишите нам. После их добавления вы получите письмо на указанный еmail.</p5>
+          <form method="POST" class="" action="{% url 'accounts:contact' %}">
+              {% csrf_token %}
+            <div class="form-group">
+              {{ contact_form.as_p }}
+            <button type="submit" class="btn btn-primary my-0">Отправить</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-13 my-0 mx-auto">
+      <p5>Если вы по каким либо причинам хотие удалит ваш аккаунт нажмите кнопку</p5>
+      <form method="POST" class="" action="{% url 'accounts:delete' %}">
+          {% csrf_token %}
+        <button type="submit" class="btn btn-danger my-3">Удалить аккаунт</button>
+      </form>
+    </div>
   </div>
 </div>
 
