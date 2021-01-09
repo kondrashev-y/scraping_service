@@ -13,6 +13,7 @@ jobs = []
 errors = []
 domain = 'https://www.superjob.ru'
 
+
 if resp.status_code == 200:
     soup = BS(resp.content, 'html.parser')
     main_div = soup.find('div', attrs={'class': '_3Qutk'})
