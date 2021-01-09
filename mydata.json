@@ -1,0 +1,6194 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-12-25T10:36:42.746Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Urls object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-12-25T10:55:29.895Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "admin@admin.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-12-25T12:22:09.237Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "test@mail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-12-25T12:22:32.961Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "test@mail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-12-25T13:06:18.386Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Urls object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Url data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-01-01T20:30:46.075Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "test1@test.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-01-01T20:30:52.603Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "test3@test.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-01-01T20:30:56.267Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "test@mail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.108Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "2021-01-04 21:01:43.899853+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.113Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "2021-01-04 20:46:49.330133+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.114Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "2021-01-01 21:44:00.950690+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.115Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2020-12-26 22:25:07.225178+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.117Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2020-12-26 22:24:10.803537+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-01-04T21:14:24.118Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2020-12-25 13:12:57.896650+00:00",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-01-04T21:33:07.748Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "2021-01-04 21:33:07.747533+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-01-04T21:39:36.913Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "2021-01-04 21:33:07.747533",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-01-04T21:39:36.917Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "2021-01-04 20:34:10.481098",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-01-04T21:39:36.919Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2020-12-28 18:41:57.070767",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2021-01-04T21:39:43.167Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "2021-01-04",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2021-01-04T21:40:22.041Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2021-01-04T21:41:16.108Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2021-01-04",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.966Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "298",
+    "object_repr": "Back-end Программист-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.971Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "297",
+    "object_repr": "Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.973Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "296",
+    "object_repr": "Разработчик / Инженер-программист (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.974Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "295",
+    "object_repr": "Python разработчик (FastApi)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.975Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "294",
+    "object_repr": "Senior Python/Django Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.976Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "293",
+    "object_repr": "Backend разработчик (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.977Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "292",
+    "object_repr": "Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.978Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "291",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.980Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "290",
+    "object_repr": "Python/JS Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.981Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "289",
+    "object_repr": "Python/Django разработчик (Back-end разработчик)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.982Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "288",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.983Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "287",
+    "object_repr": "Python Developer/DevOps",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.984Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "286",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.985Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "285",
+    "object_repr": "Backend QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.986Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "284",
+    "object_repr": "Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.987Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "283",
+    "object_repr": "Python разработчик (FastAPI)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.988Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "282",
+    "object_repr": "Data scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.989Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "281",
+    "object_repr": "Backend разработчик Python (Django) (middle+/senior)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.990Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "280",
+    "object_repr": "Backend Developer Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.991Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "279",
+    "object_repr": "Pyth‎on Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.992Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "278",
+    "object_repr": "Middle python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.993Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "277",
+    "object_repr": "Программист С++",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.994Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "276",
+    "object_repr": "Middle/Senior Back-end developer (Python/Django)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.995Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "275",
+    "object_repr": "Python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.996Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "274",
+    "object_repr": "Python (Django) developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.997Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "273",
+    "object_repr": "Teamlead Backend (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.998Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "272",
+    "object_repr": "Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-01-04T21:43:13.999Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "271",
+    "object_repr": "Middle/Senior Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.000Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "270",
+    "object_repr": "C++ / Python разработчик ( Senior / Middle )",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.001Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "269",
+    "object_repr": "Программист С++ (Computer Vision)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.002Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "268",
+    "object_repr": "Senior Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.003Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "267",
+    "object_repr": "Python-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.004Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "266",
+    "object_repr": "Python-разработчик (Middle)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.005Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "265",
+    "object_repr": "C++/Python Software Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.006Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "264",
+    "object_repr": "Flask - Python Разработчик (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.007Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "263",
+    "object_repr": "Senior Software Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.008Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "262",
+    "object_repr": "Python Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.008Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "261",
+    "object_repr": "ML Engineer / Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.009Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "260",
+    "object_repr": "Backend python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.010Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "259",
+    "object_repr": "Senior Backend Developer (Python), офис / удаленно",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.011Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "258",
+    "object_repr": "Lead Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.012Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "257",
+    "object_repr": "Разработчик C++/Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.013Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "256",
+    "object_repr": "Senior/Middle Backend developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.014Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "255",
+    "object_repr": "Разработчик Python / Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.015Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "254",
+    "object_repr": "Senior QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.016Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "253",
+    "object_repr": "Стажер - Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.017Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "252",
+    "object_repr": "Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.018Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "251",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.019Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "250",
+    "object_repr": "Middle/Senior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.020Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "249",
+    "object_repr": "Junior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.021Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "248",
+    "object_repr": "Junior Backend-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.022Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "247",
+    "object_repr": "Риск-аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.023Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "246",
+    "object_repr": "Разработчик JavaScript",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.024Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "245",
+    "object_repr": "Ведущий специалист информационных технологий",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.025Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "244",
+    "object_repr": "Back-end Программист-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.025Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "243",
+    "object_repr": "Backend разработчик (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.026Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "242",
+    "object_repr": "Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.027Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "241",
+    "object_repr": "Разработчик / Инженер-программист (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.028Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "240",
+    "object_repr": "Python разработчик (FastApi)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.029Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "239",
+    "object_repr": "Senior Python/Django Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.030Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "238",
+    "object_repr": "Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.031Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "237",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.032Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "236",
+    "object_repr": "Python/JS Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.033Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "235",
+    "object_repr": "Python/Django разработчик (Back-end разработчик)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.034Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "234",
+    "object_repr": "Python Developer/DevOps",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.035Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "233",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.036Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "232",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.037Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "231",
+    "object_repr": "Backend QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.038Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "230",
+    "object_repr": "Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.039Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "229",
+    "object_repr": "Python разработчик (FastAPI)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.040Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "228",
+    "object_repr": "Data scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.041Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "227",
+    "object_repr": "Backend разработчик Python (Django) (middle+/senior)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.041Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "226",
+    "object_repr": "Backend Developer Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.042Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "225",
+    "object_repr": "Pyth‎on Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.043Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "224",
+    "object_repr": "Программист С++",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.044Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "223",
+    "object_repr": "Middle python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.045Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "222",
+    "object_repr": "Middle/Senior Back-end developer (Python/Django)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.046Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "221",
+    "object_repr": "Python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.047Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "220",
+    "object_repr": "Python (Django) developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.048Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "219",
+    "object_repr": "Teamlead Backend (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.049Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "218",
+    "object_repr": "Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.050Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "217",
+    "object_repr": "Python-разработчик (Middle)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.051Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "216",
+    "object_repr": "Middle/Senior Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.052Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "215",
+    "object_repr": "C++ / Python разработчик ( Senior / Middle )",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.053Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "214",
+    "object_repr": "Python-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.054Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "213",
+    "object_repr": "Senior Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.055Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "212",
+    "object_repr": "Программист С++ (Computer Vision)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.056Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "211",
+    "object_repr": "C++/Python Software Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.057Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "210",
+    "object_repr": "Flask - Python Разработчик (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.058Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "209",
+    "object_repr": "Senior Software Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.059Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "208",
+    "object_repr": "Python Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.060Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "207",
+    "object_repr": "Backend python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.061Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "206",
+    "object_repr": "ML Engineer / Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.062Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "205",
+    "object_repr": "Lead Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.063Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "204",
+    "object_repr": "Senior Backend Developer (Python), офис / удаленно",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.064Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "203",
+    "object_repr": "Разработчик C++/Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.065Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "202",
+    "object_repr": "Senior/Middle Backend developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.066Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "201",
+    "object_repr": "Разработчик Python / Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.067Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "200",
+    "object_repr": "Senior QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.068Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "199",
+    "object_repr": "Стажер - Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.068Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "198",
+    "object_repr": "Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.069Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "197",
+    "object_repr": "Middle/Senior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.070Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "196",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "195",
+    "object_repr": "Junior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.072Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "194",
+    "object_repr": "Программист pyrus",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.073Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "193",
+    "object_repr": "QA Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.074Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "192",
+    "object_repr": "DevOps инженер / SRE",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.075Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "191",
+    "object_repr": "Back-end developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.076Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "190",
+    "object_repr": "Senior QA (auto, Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.077Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "189",
+    "object_repr": "Java разработчик (Медицина)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.078Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "188",
+    "object_repr": "Аналитик интеграционных взаимодействий",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.079Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "187",
+    "object_repr": "Java разработчик (Медицина)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.080Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "186",
+    "object_repr": "Аналитик данных (аналитические витрины)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.081Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "185",
+    "object_repr": "Аналитик данных AI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.082Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "184",
+    "object_repr": "Python/JS Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.083Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "183",
+    "object_repr": "Python Developer (Сashbox Team)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.084Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "182",
+    "object_repr": "Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.085Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "181",
+    "object_repr": "Backend Developer (Python/ML)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.086Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "180",
+    "object_repr": "Backend QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.087Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "179",
+    "object_repr": "Data scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.088Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "178",
+    "object_repr": "Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.089Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "177",
+    "object_repr": "Full stack developer (Python / Django / Vue)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.090Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "176",
+    "object_repr": "Разработчик Python (Back-End)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.091Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "175",
+    "object_repr": "Middle python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.092Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "174",
+    "object_repr": "Senior Python Django developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.093Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "173",
+    "object_repr": "Senior Software Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.094Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "172",
+    "object_repr": "QA-специалист, QA-тестировщик (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.095Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "171",
+    "object_repr": "Ведущий системный администратор Zabbix",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.096Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "170",
+    "object_repr": "Тестировщик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.097Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "169",
+    "object_repr": "Программист ПО",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.098Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "168",
+    "object_repr": "Аналитик КХД",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.099Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "167",
+    "object_repr": "Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.100Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "166",
+    "object_repr": "JavaScript developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.101Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "165",
+    "object_repr": "Data Engineer Дивизион «Забота о клиентах»",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.102Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "164",
+    "object_repr": "Старший инженер сопровождения (проекты Экосистемы)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.103Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "163",
+    "object_repr": "Инженер-программист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.104Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "162",
+    "object_repr": "Senior Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.105Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "161",
+    "object_repr": "Инженер - программист (Junior PYTHON-разработчик)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.106Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "160",
+    "object_repr": "Программист С++ (Computer Vision)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.107Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "159",
+    "object_repr": "Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.108Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "158",
+    "object_repr": "Pyth‎on Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.109Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "157",
+    "object_repr": "Machine Learning Engineer (Computer Vision)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.110Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "156",
+    "object_repr": "Python-разработчик (Middle)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.111Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "155",
+    "object_repr": "Backend разработчик (Python / Django)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.112Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "154",
+    "object_repr": "Python/Go разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.113Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "153",
+    "object_repr": "Junior Data Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.114Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "152",
+    "object_repr": "Инженер по компьютерному зрению (команда беспилотника)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.115Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "151",
+    "object_repr": "Data аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.116Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "150",
+    "object_repr": "Системный администратор Linux",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.117Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "149",
+    "object_repr": "Аналитик DWH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.118Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "148",
+    "object_repr": "QA Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.119Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "147",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.120Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "146",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.121Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "145",
+    "object_repr": "Программист BackEnd (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.122Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "144",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.123Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "143",
+    "object_repr": "C++/Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.124Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "142",
+    "object_repr": "Machine Learning Engineer (Управление торгового финансирования)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.125Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "141",
+    "object_repr": "Разработчик баз данных",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.126Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "140",
+    "object_repr": "Системный аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.127Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "139",
+    "object_repr": "Маркетолог-аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.128Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "138",
+    "object_repr": "Менеджер по продажам IT-услуг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.129Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "137",
+    "object_repr": "Ведущий администратор Big Data / Руководитель группы администраторов",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.130Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "136",
+    "object_repr": "Биоинформатик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.131Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "135",
+    "object_repr": "Консультант по информационным технологиям и телекоммуникациям",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.132Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "134",
+    "object_repr": "Инженер-программист по Linux системам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.133Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "133",
+    "object_repr": "Инженер Oracle WebLogic",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.134Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "132",
+    "object_repr": "Senior Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.135Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "131",
+    "object_repr": "Ведущий программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "130",
+    "object_repr": "Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.137Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "129",
+    "object_repr": "Программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.138Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "128",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.139Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "127",
+    "object_repr": "Senior Python/Django Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.139Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "126",
+    "object_repr": "Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.140Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "125",
+    "object_repr": "Программист Python (Middle)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.141Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "124",
+    "object_repr": "QA Automation Engineer (Python, API backend)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.142Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "123",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.143Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "122",
+    "object_repr": "Backend Developer Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.144Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "121",
+    "object_repr": "Data Scientist (Computer Vision)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.145Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "120",
+    "object_repr": "Python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.146Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "119",
+    "object_repr": "C++ / Python разработчик ( Senior / Middle )",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.147Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "118",
+    "object_repr": "Backend разработчик Python (Django) (middle+/senior)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.148Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "117",
+    "object_repr": "Тестировщик (ручное тестирование)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.149Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "116",
+    "object_repr": "Разработчик Python / Data engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.150Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "115",
+    "object_repr": "Python разработчик (FastApi)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.151Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "114",
+    "object_repr": "Backend - разработчик (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.152Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "113",
+    "object_repr": "Python senior developer / Старший Python-Разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.153Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "112",
+    "object_repr": "Python-Разработчик (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.154Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "111",
+    "object_repr": "C++/Python Software Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.155Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "110",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.156Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "109",
+    "object_repr": "DevSecOps эксперт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.157Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "108",
+    "object_repr": "Ведущий Backend-разработчик (Python/Django)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.157Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "107",
+    "object_repr": "Data Scientist at Sberbank Corporate (Управление продажами в Субъектах РФ)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.159Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "106",
+    "object_repr": "Разработчик риск-стратегий по корпоративным клиентам",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.160Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "105",
+    "object_repr": "Senior Data analyst",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.161Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "104",
+    "object_repr": "Java разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.162Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "103",
+    "object_repr": "Инженер по анализу кода (Android)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.163Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "102",
+    "object_repr": "Data Engineer (ДКК 360)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.164Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "101",
+    "object_repr": "Преподаватель курсов в школу программирования",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.165Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "100",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.166Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "99",
+    "object_repr": "Специалист по администрированию Unix",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.167Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "98",
+    "object_repr": "Младший системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.168Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "97",
+    "object_repr": "Ведущий инженер-программист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.169Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "96",
+    "object_repr": "Программист ПО",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "95",
+    "object_repr": "Data Scientist (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.170Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "94",
+    "object_repr": "Разработчик PHP (Laravel)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.171Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "93",
+    "object_repr": "Портфельный риск-менеджер/Отдел методологии рисков лизинговых процессов/",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.172Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "92",
+    "object_repr": "Data engineer (Управление торгового финансирования)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.173Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "91",
+    "object_repr": "Аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.174Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "90",
+    "object_repr": "Продуктовый аналитик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.175Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "89",
+    "object_repr": "Учитель информатики",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.176Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "88",
+    "object_repr": "Ведущий системный администратор",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.177Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "87",
+    "object_repr": "Аналитик DWH",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.178Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "86",
+    "object_repr": "Координатор проектов в области IT",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.179Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "85",
+    "object_repr": "DevOps специалист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.180Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "84",
+    "object_repr": "Системный администратор Linux",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.181Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "83",
+    "object_repr": "Аналитик данных",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.182Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "82",
+    "object_repr": "Системный администратор, IT-специалист",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.183Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "81",
+    "object_repr": "Системный администратор Windows",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.184Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "80",
+    "object_repr": "Программист C++",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.185Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "79",
+    "object_repr": "Teamlead Backend (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.186Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "78",
+    "object_repr": "Python-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.188Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "77",
+    "object_repr": "Backend developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.188Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "76",
+    "object_repr": "Senior QA (auto, Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.189Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "75",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.190Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "74",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.192Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "73",
+    "object_repr": "Backend-разработчик / Junior Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.193Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "72",
+    "object_repr": "Программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.194Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "71",
+    "object_repr": "Программист С++/Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.194Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "70",
+    "object_repr": "Ведущий Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.195Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "69",
+    "object_repr": "Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.196Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "68",
+    "object_repr": "Программист С++",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.197Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "67",
+    "object_repr": "Data Analyst",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.198Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "66",
+    "object_repr": "Data scientist (NLP)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.199Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "65",
+    "object_repr": "Data scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.200Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "64",
+    "object_repr": "Middle/Senior Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.201Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "63",
+    "object_repr": "Программист С++",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.202Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "62",
+    "object_repr": "Junior machine learning engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.203Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "61",
+    "object_repr": "Senior Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.204Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "60",
+    "object_repr": "Python Architect",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 261,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.205Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "59",
+    "object_repr": "Разработчик Python в проект видеоаналитики для госпиталей",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 262,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.206Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "58",
+    "object_repr": "Middle/Senior Back-end developer (Python/Django)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 263,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.207Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "57",
+    "object_repr": "Python Backend developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 264,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.208Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "56",
+    "object_repr": "ML Engineer / Data Scientist",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 265,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.209Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "55",
+    "object_repr": "Lead Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 266,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.210Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "54",
+    "object_repr": "Data Analyst",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 267,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.211Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": "Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 268,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.212Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "52",
+    "object_repr": "Программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 269,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.213Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "51",
+    "object_repr": "Backend программист (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 270,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.214Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "50",
+    "object_repr": "Python разработчик/Ведущий Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 271,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.215Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "49",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 272,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.216Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "48",
+    "object_repr": "Senior Python Backend Developer (Machine Learning)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 273,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.217Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "47",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 274,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.218Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "46",
+    "object_repr": "Разработчик Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 275,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.219Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 276,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.220Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "44",
+    "object_repr": "Python (Back-end) Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 277,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.221Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "43",
+    "object_repr": "Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 278,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.221Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "42",
+    "object_repr": "Senior Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 279,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.222Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Backend разработчик Python (Django) (middle+/senior)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 280,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.223Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "Разработчик (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 281,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.224Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "Python (Django) developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 282,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.225Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "Junior Back-end Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 283,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.226Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "Backend-разработчик Python (middle)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 284,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.227Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "Senior Python-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 285,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.228Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "Python разработчик (FastAPI)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 286,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.229Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "Разработчик Python (+ Удаленная работа)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 287,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.230Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "Тестировщик ПО удаленно (автоматизация, Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 288,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.231Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "Python Developer/DevOps",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 289,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.232Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Python Backend Developer / WEB - разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 290,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.233Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "Python Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 291,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.234Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "Teamlead Backend (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 292,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.235Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Senior Backend developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 293,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.235Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Junior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 294,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.236Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Backend Developer (Python/Flask)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 295,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.238Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Python-разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 296,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.238Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Senior Backend Developer (Python), офис / удаленно",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 297,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.240Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Разработчик C++/Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 298,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.241Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 299,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.242Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Senior QA Automation Engineer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 300,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.243Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 301,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.244Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 302,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.245Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Разработчик на Python (Full stack)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 303,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.246Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Senior Python developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 304,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.247Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Python middle developer/ Python-Разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 305,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.248Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 306,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.249Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 307,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Python senior developer / Старший Python-Разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 308,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.251Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Middle/Senior Backend Developer (Python)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 309,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.252Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Backend python/Django разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 310,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.253Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Python Web Developer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 311,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.253Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 312,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.254Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Программист Python",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 313,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.255Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Разработчик Python / Data Engineer",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 314,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.256Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 315,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.257Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Flask - Python Разработчик (удаленно)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 316,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.258Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Стажер - Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 317,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.259Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Python Backend разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 318,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.260Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Python разработчик",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 319,
+  "fields": {
+    "action_time": "2021-01-04T21:43:14.261Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Стажер - Python-разработчик (Django, DRF)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 320,
+  "fields": {
+    "action_time": "2021-01-05T14:08:38.291Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "test3@test.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\", \"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 321,
+  "fields": {
+    "action_time": "2021-01-05T19:57:22.162Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2021-01-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 322,
+  "fields": {
+    "action_time": "2021-01-07T06:23:14.013Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2021-01-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 323,
+  "fields": {
+    "action_time": "2021-01-07T06:29:45.211Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2021-01-07",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 324,
+  "fields": {
+    "action_time": "2021-01-07T08:34:22.291Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2021-01-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 325,
+  "fields": {
+    "action_time": "2021-01-07T08:54:06.560Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "2021-01-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 326,
+  "fields": {
+    "action_time": "2021-01-07T09:13:07.321Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "2021-01-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 327,
+  "fields": {
+    "action_time": "2021-01-07T09:20:44.119Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2021-01-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Название города",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Название города",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Название города",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Название города",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Язык программирования",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Язык программирования",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Язык программирования",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Язык программирования",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Ошибка",
+    "content_type": 10,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Ошибка",
+    "content_type": 10,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Ошибка",
+    "content_type": 10,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Ошибка",
+    "content_type": 10,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add urls",
+    "content_type": 11,
+    "codename": "add_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change urls",
+    "content_type": 11,
+    "codename": "change_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete urls",
+    "content_type": 11,
+    "codename": "delete_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view urls",
+    "content_type": 11,
+    "codename": "view_urls"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "urls"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8pj25v9gk5song9b4oxigdu2amuojzzv",
+  "fields": {
+    "session_data": "e30:1kuIiA:-I4Y6gSTlLxHZPkYVZ2YKSb8DBtzEoqHqtWxUi8XXHQ",
+    "expire_date": "2021-01-12T17:23:06.884Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ov7orfzcj7w66mf5tu257689nafayg5v",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RAKLKUevfcNZJcFqRpISnsy_t006UGvM5N5i4D7VsLe0xoWFlcxiMsvI4zPVA_BD6z3JmOr27qQPBJ52i7nxul1O9u_QcFeji35cXTD5AHtZMCMTEw5m2QHRsiJnSKtLGdUmmFywOwdQdbRe9ZgxOcL43w4Dw:1kvR43:zneYXVOYPR9fL8OdoHztSup4eAdtrlzBME1uzFUqKNE",
+    "expire_date": "2021-01-15T20:30:23.999Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r79wizjja3bbuwl7etln6uw3ksrquwg6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RAKLKUevfcNZJcFqRpISnsy_t006UGvM5N5i4D7VsLe0xoWFlcxiMsvI4zPVA_BD6z3JmOr27qQPBJ52i7nxul1O9u_QcFeji35cXTD5AHtZMCMTEw5m2QHRsiJnSKtLGdUmmFywOwdQdbRe9ZgxOcL43w4Dw:1kxzcH:1R4ZphcmXW4253CGuSrS7dsHaF_mjsaA05d-UXBexEw",
+    "expire_date": "2021-01-22T21:48:17.522Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yihnyrdb6oy4smmfbf7fosc16xjkd6ii",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RAKLKUevfcNZJcFqRpISnsy_t006UGvM5N5i4D7VsLe0xoWFlcxiMsvI4zPVA_BD6z3JmOr27qQPBJ52i7nxul1O9u_QcFeji35cXTD5AHtZMCMTEw5m2QHRsiJnSKtLGdUmmFywOwdQdbRe9ZgxOcL43w4Dw:1kwWPT:KG3O9rGwRKC4eS7SsG53Pva8HD9rMMe1Rb5VENgjZNE",
+    "expire_date": "2021-01-18T20:24:59.809Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Москва",
+    "slug": "moscow"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Сочи",
+    "slug": "sochi"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 3,
+  "fields": {
+    "name": "Ростов",
+    "slug": "rostov"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 299,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43658728/",
+    "title": "Продуктовый аналитик",
+    "company": "Работа.ру",
+    "description": "Уже сейчас Работа.ру — один из ведущих российских IT-сервисов для поиска работы и сотрудников, который входит в состав стратегических проектов экосистемы Сбербанка. Мы не стоим на месте и стремительно развиваемся, поддерживаем высокий уровень конкуренции и разрабатываем инновационные продукты в IT-сфере…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 300,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43382710/",
+    "title": "Аналитик",
+    "company": "Работа.ру",
+    "description": "Уже сейчас Работа.ру — один из ведущих российских IT-сервисов для поиска работы и сотрудников, который входит в состав стратегических проектов экосистемы Сбербанка. Мы не стоим на месте и стремительно развиваемся, поддерживаем высокий уровень конкуренции и разрабатываем инновационные продукты в IT-сфере…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 301,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907157/",
+    "title": "Аналитик интеграционных взаимодействий",
+    "company": "СБЕР",
+    "description": "Основные задачи команды – развитие внутреннего сервиса построения аналитических витрин реализации бизнес плана Центра медицинские продукты и сервисы. Цели и задачи: Анализ данных о Клиентах и продуктах, выявление знаний из имеющихся источников данных, поиск новых источников, коммуникация с владельцами…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 302,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43901947/",
+    "title": "Системный аналитик",
+    "company": "СберЗвук",
+    "description": "Что такое СберЗвук? Мультиплатформенный встраиваемый аудиосервис, который будет сопровождать человека в течение всего дня, где бы он не находился и что бы он ни делал, бесшовно перетекая вслед за ним с платформы на платформу, с устройства на устройство. Наша миссия; Помочь современному человеку проживать…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 303,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43876553/",
+    "title": "Портфельный риск-менеджер/Отдел методологии рисков лизинговых процессов/",
+    "company": "АО \"Сбербанк Лизинг\"",
+    "description": "Кто мы: АО \"Сбербанк Лизинг\" – лидер на рынке лизинговых компаний России. Чем предстоит заниматься: Анализ входящего потока заявок, расчет риск-метрик для определения эффективности кредитной процедуры; Мониторинг и анализ качества новых выдач, контроль уровня риска в кредитном портфеле, определение…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 304,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43866405/",
+    "title": "Программист ПО",
+    "company": "\n            ЛАБОРАТОРИЯ ИНТЕЛЛЕКТУАЛЬНЫХ СИСТЕМ \n          ",
+    "description": "Поддержка и разработка новых пользовательских приложения на C/C++, включающих модули обработки данных от внешних устройств, логику устройства (ядро приложений, встроенная БД), web- интерфейсы встраиваемых устройств, протоколы связи. Поддержка и написание модулей ядра Linux для работы с встроенными модулями…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "60 000 — 150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 305,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43889133/",
+    "title": "Разработчик PHP (Laravel)",
+    "company": "Дилайт софт",
+    "description": "Молодая амбициозная ИТ-команда ищет перспективных PHP web-разработчиков для участия в проектах по автоматизации бизнеса и производства (создание и доработка баз данных, веб-интерфейсов, аналитические и интеграционные модули и др.) Обязанности: участие в доработке и разработке веб-сервисов с использованием…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 60 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 306,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43868088/",
+    "title": "Data Scientist (удаленно)",
+    "company": "АктивБизнесКонсалт, ООО",
+    "description": "Кто мы? Мы – компания-разработчик IT решений на базе AI в сфере речевых технологий, таких как робот-оператор, речевая аналитика, синтез речи, распознавание речи и пр. На внешнем рынке мы представлены под брендом VSRobotics. Наша команда создает технологичные продукты, которые помогают сокращать расходы…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 307,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/41237227/",
+    "title": "Ведущий инженер-программист",
+    "company": "ОАО НПП Темп им. Ф. Короткова ,ОАО",
+    "description": "Разработка (организация разработки) прикладного, системного и встраиваемого программного обеспечения; разработка алгоритмов работы программного обеспечения, включая моделирование, подтверждающее правильность выбранных алгоритмических решений; разработка программной, эксплуатационной и технологической…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 100 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 308,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/42543027/",
+    "title": "Специалист по администрированию Unix",
+    "company": "МТС",
+    "description": "В команду, занимающуюся эксплуатацией оборудования PS Core МТС Москва требуется инженер обладающий знаниями близкими к уровню администратора UNIX систем, имеющий опыт работы со скриптовыми языками. Чем мы занимаемся: Эксплуатация оборудования ядра пакетной коммутации, логика / физическое окружение…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "85 000 — 100 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 309,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43877032/",
+    "title": "Младший системный администратор",
+    "company": "НИКС",
+    "description": "В крупную компьютерную компанию требуется младший системный администратор с большими амбициями. Обязанности: Увлекательная работа по обслуживанию ИТ-инфраструктуры с элементами искусственного интеллекта, включая ежедневный мониторинг, техподдержку сотрудников, установку ПО, обслуживание оборудования…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "60 000 — 100 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 310,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43420639/",
+    "title": "Разработчик Python",
+    "company": "ООО Крафт-толк",
+    "description": "Мы предлагаем работу в сфере разработки ПО для клиентской поддержки с применением технологий искусственного интеллекта. Нашим продуктом пользуются крупнейшие компании России, такие как Почта России, контакт-центр города Москва, банки в России и СНГ и в перспективе европейские компании. Наша компания…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "30 000 — 60 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 311,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43686257/",
+    "title": "Преподаватель курсов в школу программирования",
+    "company": "Хейфец Олег Олегович",
+    "description": "Проводить уроки по детальным методическим материалам по одному из направлений: Python, Проектная Информатика, Создание Сайтов (HTML, CSS), Scratch, Roblox, Unity; Проводить мастер-классы для набора новых групп численностью до 14 студентов; Проверять домашние работы и обеспечивать обратную связь для…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "25 000 — 60 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 312,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907176/",
+    "title": "Аналитик данных AI",
+    "company": "СБЕР",
+    "description": "Экосистема — инициатива Сбербанка, создающая новые способы предоставления и потребления услуг. Мы собираем лучшие технологии и управленческие методы из мировой практики, чтобы построить передовую сервисную экосистему. В нее входят различные коммерческие проекты с нашими партнерами, среди которых есть…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 313,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907190/",
+    "title": "Аналитик данных (аналитические витрины)",
+    "company": "СБЕР",
+    "description": "Экосистема — инициатива Сбербанка, создающая новые способы предоставления и потребления услуг. Мы собираем лучшие технологии и управленческие методы из мировой практики, чтобы построить передовую сервисную экосистему. В нее входят различные коммерческие проекты с нашими партнерами, среди которых есть…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 314,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907209/",
+    "title": "Java разработчик (Медицина)",
+    "company": "СБЕР",
+    "description": "Кратко о нас: Мы - молодая, амбициозная команда, занимающаяся разработкой с нуля платформы экосистемы Медицинских Продуктов Сбер! В настоящее время создается основа для команды, строится архитектура решений. Мы используем широкий спектр современных технологий: open-source, облачные технологии и микросервисы…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 315,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907221/",
+    "title": "Java разработчик (Медицина)",
+    "company": "СБЕР",
+    "description": "Кратко о нас: Мы - молодая, амбициозная команда, занимающаяся разработкой с нуля платформы экосистемы Медицинских Продуктов Сбер! В настоящее время создается основа для команды, строится архитектура решений. Мы используем широкий спектр современных технологий: open-source, облачные технологии и микросервисы…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 316,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43896052/",
+    "title": "Data engineer (Управление торгового финансирования)",
+    "company": "СБЕР",
+    "description": "Мы ищем опытного Data Engineer в команду Data Science Управления торгового финансирования корпоративно-инвестиционного блока. Корпоративно-инвестиционный блок отвечает за работу с юридическими лицами и индивидуальными предпринимателями от микробизнеса до крупнейшего. Ключевым направлением является развитие…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 317,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43885552/",
+    "title": "Data Engineer (ДКК 360)",
+    "company": "СБЕР",
+    "description": "Мы ищем опытных разработчиков на развитие платформы больших данных Сбербанка в части специализированных витрин для информационно-аналитических продуктов в рамках задач монетизации данных. Корпоративно-инвестиционный блок отвечает за работу с компаниями от микро бизнеса до крупнейшего. В настоящее время…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 318,
+  "fields": {
+    "url": "https://www.rabota.ru/vacancy/43907020/",
+    "title": "Старший инженер сопровождения (проекты Экосистемы)",
+    "company": "СБЕР",
+    "description": "Экосистема — инициатива Сбербанка, создающая новые способы предоставления и потребления услуг. Мы собираем лучшие технологии и управленческие методы из мировой практики, чтобы построить передовую сервисную экосистему. В нее входят различные коммерческие проекты с нашими партнерами, среди которых есть…  ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "договорная зарплата"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 319,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40018645?query=Python",
+    "title": "Junior Backend Developer (Python)",
+    "company": " Postuf",
+    "description": "Участие в создании и развитии серверной части наших приложений. Работа с высоконагруженными сервисами. Поддержка и развитие существующих решений - бэкенд, базы...Опыт разработки на Python. Общее понимание принципов ООП. Базовое знание SQL и опыт работы с базами данных. Плюсом будет работа...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 320,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40918573?query=Python",
+    "title": "Middle/Senior Backend Developer (Python)",
+    "company": " Postuf",
+    "description": "Участие в создании и развитии серверной части наших приложений. Работа с высоконагруженными сервисами. Поддержка и развитие существующих решений - бэкенд, базы...Опыт разработки на Python + Django. Уверенное знание принципов ООП и основных шаблонов проектирования. Знание SQL и опыт работы с...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "300 000-400 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 321,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40847256?query=Python",
+    "title": "Стажер - Python-разработчик (Django, DRF)",
+    "company": "ООО Фабрика Решений",
+    "description": "Учиться разбираться в чужом коде. Cоставлять сложные SQL-запросы (в частности, PostgreSQL) и оптимизировать их. Внимание: с командами не работаем...Основные технологии проекта: Django 2.2, DRF, PostgreSQL. Работать с django 2.*, python 3.7, djangorestframework. Работать с регулярными выражениями. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "50 000-90 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 322,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40794065?query=Python",
+    "title": "Senior QA Automation Engineer (Python)",
+    "company": " Scalable Solutions",
+    "description": "Будет плюсом: Опыт автоматизированного тестирования больших распределенных систем. Опыт нагрузочного тестирования. Знание Python/Pytest. Опыт в финтехе. Людям, увлеченным финтехом...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 250 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 323,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41025196?query=Python",
+    "title": "Python Backend Developer / WEB - разработчик",
+    "company": "ООО Перфект Системс",
+    "description": "Обязанности web-разработка, 85% backend / 15% database.Знание возможностей Python и экосистемы Python (модули, IDE, shell & bash). Опыт настройки среды Linux / Unix с помощью инструментов Python. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 160 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 324,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40332539?query=Python",
+    "title": "Разработчик C++/Python",
+    "company": " L3 Technologies",
+    "description": "...в коде с использованием существующих/создаваемых движков). Написание вспомогательных инструментов для анализа/обработки данных (фильтрация, визуализация, конвертация, связка Python-C++).Практический опыт программирования на C++ (стандарт 11 и выше) и Python: знакомство с их стандартными библиотеками и основными идиомами/паттернами. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "120 000-180 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 325,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41131700?query=Python",
+    "title": "Python разработчик",
+    "company": " Филиал компании Лист Ренталс Лимитед",
+    "description": "Непосредственное участие в разработке уникальных продуктов, которые изменят целую отрасль.Техническое образование или эквивалентный практический опыт. Хороший опыт разработки на Python. Опыт разработки веб-приложений. Не понаслышке знать про aiohttp...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "1 000-4 000 USD"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 326,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40710424?query=Python",
+    "title": "Lead Backend Developer (Python)",
+    "company": " AppQuantum",
+    "description": "Платформа сбора-обработке данных, на которой все это работает. Стек: Python (pandas, flask, async), SQL (clickhouse, postgreSQL), Linux, Airflow, Tableau...Фулл стэк бэкенд разработчик с уровнем lead и выше, который сможет менторить команду по техническим вопросам, контролировать качество реализации, проводить...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 250 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 327,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41098662?query=Python",
+    "title": "Разработчик Python / Data Engineer",
+    "company": " Dalytics",
+    "description": "Строить системы Data Mining. Проектировать и реализовывать ETL-процессы. Собирать Data Pipeline для работы моделей (Kafka + ClickHouse). Пишете на 3.6+ Python и имеете любимые пакеты. Умеете работать с брокерами сообщений (Kafka, celery, etc.) и базами...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 328,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40682852?query=Python",
+    "title": "Senior/Middle Backend developer (Python)",
+    "company": " NZT Group",
+    "description": "Который готов выходить за рамки поставленных задач, выполнять поиск и анализ новых решений, искать новые технологии, прототипировать их, предлагать новые...Отличное знание Python. - Опыт проектирования высоконагруженных сервисов. - Уверенное знание Git, SQL,Django. - Опыт проектирования и понимание принципов оптимизации БД (MySQL...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "250 000-350 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 329,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41072458?query=Python",
+    "title": "Senior Backend Developer (Python), офис / удаленно",
+    "company": "ООО Стар Майнинг СЛ",
+    "description": "Постепенно переводить архитектуру на микросервисы. Разрабатывать системы обработки пользовательских платежей и различной пользовательской активности. Взаимодействовать с командой frontend-разработки. Уверенное знание Python 3. Опыт работы с синхронными (минимум Django) и асинхронными фреймворками. Опыт разработки архитектуры, основанной на микросервисах. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "160 000-250 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 330,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41057654?query=Python",
+    "title": "ML Engineer / Data Scientist",
+    "company": "ООО Адаперио",
+    "description": "Разработка и внедрение моделей машинного обучения для оценки качества и ликвидности автомобиля с пробегом. Анализ датасетов, их подготовка, валидация. ...фреймворком (tensorflow, sklearn,keras и т.д.). Уверенное знание SQL. Знание современных алгоритмов ML/DL, CV. Знание мат статистики. Python.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 331,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40922371?query=Python",
+    "title": "Python Web Developer",
+    "company": " Soshace",
+    "description": "Guarantee of regular payments and reliable clients. We search for clients and do all the paperwork. After the first project...3+ years of professional software development experience with Python. 1+ year of professional experience with Django. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "3 500-5 000 USD"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 332,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40977981?query=Python",
+    "title": "Backend python/Django разработчик",
+    "company": "ООО БОЛЬШАЯ ТРОЙКА",
+    "description": "Проектировать и разрабатывать серверные приложения (backend) сложных web-порталов в agile команде. Прямо сейчас в разработке информсистема масштабов региона с...От 3 лет промышленной разработки на Python. Отличное знание и владение: Python. Django. Django REST framework. PostgreSQL. Опыт создания архитектуры...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "120 000-200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 333,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40892909?query=Python",
+    "title": "Senior Python Backend Developer / WEB - разработчик",
+    "company": "ООО Перфект Системс",
+    "description": "Обязанности web-разработка, 85% backend / 15% database.Знание возможностей Python и экосистемы Python (модули, IDE, shell & bash). Опыт настройки среды Linux / Unix с помощью инструментов Python. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 250 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 334,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41078871?query=Python",
+    "title": "Flask - Python Разработчик (удаленно)",
+    "company": " Alandarev Limited",
+    "description": "SQLAlchemy. Mapbox (если не знаете, то быть готовым изучить при работе). JavaScript (на нем написан фронт-енд, а если точнее...Можно заменить хорошим знанием Django, aiohttp и т.д.). Опыт в Python 2+ года. Знание английского языка – ТЗ часто...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "80 000-200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 335,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41187077?query=Python",
+    "title": "Senior Software Engineer (Python)",
+    "company": "ООО Алемира Рисерч",
+    "description": "Designing, developing and maintaining reliable and scalable services for cloud-based digital learning ecosystem.3+ years experience in Python, good knowledge of Django. Good knowledge of containers and networking. Ability to speak and...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "250 000-300 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 336,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41137605?query=Python",
+    "title": "C++/Python Software Engineer",
+    "company": " Журавлев Николай",
+    "description": "The working process is 100% remote, we don’t care where do you live, but if your time zone is......language DLL, Python application and native DLL or PYD, IPC between two managed language applications (C# and Python). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "3 500-4 000 USD"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 337,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40780728?query=Python",
+    "title": "Программист С++ (Computer Vision)",
+    "company": " Photo Lab",
+    "description": "Кодирование видео на GPU (технология NVDEC). Разработка и внедрение алгоритмов обработки изображений в крупную программную систему. Перенос 3D моделей...Базовые знания Python. Computer animation - знание методов компьютерной анимации (Skeletal and Morph animation, Rigging, Skinning, MoCap). Умение работать как минимум...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "100 000-200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 338,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41135938?query=Python",
+    "title": "C++ / Python разработчик ( Senior / Middle )",
+    "company": " L3 Technologies",
+    "description": "Оптимизация торговых движков и разработка их архитектуры. Написание вспомогательных инструментов для анализа/обработки данных (фильтрация, визуализация, конвертация, связка Python-C++).Промышленный опыт программирования на C++ (стандарт 11 и выше) и Python: хорошее знакомство с их стандартными библиотеками и идиомами/паттернами...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 170 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 339,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/39635171?query=Python",
+    "title": "Python-разработчик",
+    "company": " Новакид РУС",
+    "description": "Работа со стеком технологий: Python 3.6, Pyramid, PostgreSQL, SQLAlchemy, Celery, Rabbitmq, Redis, Buildout, Rest API, немного JS (тех админка...Опыт удаленной работы. Опыт работы с нашим стеком (см выше), любыми Python фреймворками (Bottle, Django, Flask, Pyramid и т.п...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 340,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41174193?query=Python",
+    "title": "Python-разработчик (Middle)",
+    "company": " Латера",
+    "description": "Часть биллинга, написанная на Python у нас особо ответственная — она принимает платежи и обрабатывает сотни запросов в секунду на предоставление...Опыт промышленной разработки на Python от года. Опыт работы с реляционными базами данных. Надо понимать не только как сделать запросы...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 220 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 341,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/39736489?query=Python",
+    "title": "Python-разработчик (Django, DRF)",
+    "company": "ООО Фабрика Решений",
+    "description": "Внимание: с командами не работаем, только с индивидуальными исполнителями. Профессиональный рост и участие в построении архитектур сложных систем.Опыт разработки сложных проектов. Обязателен опыт работы с django 2.*, python 3.7, djangorestframework. Знание SQL (в частности, PostgreSQL) и...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "60 000-150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 342,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40871569?query=Python",
+    "title": "Middle/Senior Data Scientist",
+    "company": " Gradient",
+    "description": "Имеет опыт работы в качестве Data Scientist от года. Наличие как минимум 2 написанных с нуля проектов на Pytorch / Tensorflow...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 343,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40115067?query=Python",
+    "title": "Python (Django) developer",
+    "company": " evrone.ru",
+    "description": "Прямо сейчас мы разрабатываем продукты в направлениях: fintech, портальные решения и сми, medtech, видео/стриминг сервисы, erp/crm системы, маркетплейсы...Хорошее знание Python 3 в целом и Django в частности. Умение пользоваться РСУБД не только через ORM. Наличие опыта проектирования...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 220 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 344,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41160165?query=Python",
+    "title": "Python/Django разработчик",
+    "company": "ООО ИДАГРУПП",
+    "description": "Разработка API. Интеграция сторонних сервисов. Участие в полном цикле разработки - проектирование, программирование, тестирование, поддержка. Контролирование качества кода. Администрирование серверов. Опыт работы с контейнерами docker. Практический опыт автоматизации развертывания приложений. Python3. Django. Django REST Framework. Celery. Redis. PostgreSQL. Nginx. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 70 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 345,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41228202?query=Python",
+    "title": "Middle python разработчик",
+    "company": "ООО Брейн Компани",
+    "description": "Разработка серверных приложений (backend). Разработка новых функций продукта, проектирование архитектуры проекта.Навыки: Разработка ПО (Middle), Django, Python, Git, PostgreSQL. Опыт промышленной разработки на Python. Понимание клиент-серверной архитектуры и протоколов: TCP...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "120 000-150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 346,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40840868?query=Python",
+    "title": "Teamlead Backend (Python)",
+    "company": "ООО Фабрика Решений",
+    "description": "Руководить командой разработки. Проектировать архитектурных решений и их документирование. Ставить технические задачи команде (совместно с аналитиком). Обеспечение технического качества продукта. Опыт разработки сложных проектов. Обязателен опыт работы с django 2.*, python 3.7, djangorestframework. Знание баз данных: PgSQL, MySQL, Redis...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "120 000-300 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 347,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40838267?query=Python",
+    "title": "Middle/Senior Back-end developer (Python/Django)",
+    "company": " KRK Group",
+    "description": "Разработка Back-end логики, принятие архитектурных решений и оптимизация. Работа с проектированием и оптимизацией базы на Postgre SQL. Создание API.Хорошее знание и опыт работы с Python/Django. Умение работать с SQL, в перспективе планируем GraphQL. Желание учиться новым технологиям...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "150 000-250 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 348,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40965569?query=Python",
+    "title": "Программист С++",
+    "company": " APOLLO",
+    "description": "Проектирование новых модулей, расширение функционала существующих. Разработка, отладка, тестирование и первичное документирование программных модулей. Поддержка и исправление ошибок в существующих...Способность разбираться в чужом коде самостоятельно. Ответственность, высокая производительность. Дополнительным плюсом будут: Python. C#, .NET. Опыт работы с Gitlab/Gitlab...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 3 500 USD"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 349,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/37430732?query=Python",
+    "title": "Pyth‎on Developer",
+    "company": " Циан",
+    "description": "Разработка и поддержка проектов в микросервисной архитектуре. Проектирование архитектуры разрабатываемых компонентов. Участие в формировании способов достижения бизнес-целей команды. Имеет опыт коммерческой веб-разработки. Отлично знает Python и SQL. Умеет писать поддерживаемый и тестируемый код. Владеет ООП как в...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 350,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41150286?query=Python",
+    "title": "Backend разработчик Python (Django) (middle+/senior)",
+    "company": "ООО Нова",
+    "description": "Работа в дружной команде. Back-end разработка на Python 3.8+. Проектировать и разрабатывать новые высоконагруженные сервисы , API сервисов...Опыт разработки ПО на языке программирования Python от 3+ лет. Практический опыт работы с Django (Django ORM, Django Rest...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "150 000-200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 351,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40794251?query=Python",
+    "title": "Data scientist",
+    "company": "ООО Цифровая стройка",
+    "description": "Изучение задач клиентов в сфере компетенций Компании по методологии Jobs to be done. Изучение бизнес-моделей, бизнес-процессов и продуктов...Свободное владение английским языком. Опыт программирования Python, SQL, MongoDB от 3х лет. Опыт анализа данных с помощью нейронных сетей. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 100 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 352,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40782495?query=Python",
+    "title": "Backend Developer Python",
+    "company": " JetLend",
+    "description": "Участие в разработке проектов компании: сайт, личный кабинет. При желании - участие в разработке более сложных подсистем - сбор данных, обработка и...Умение писать юнит-тесты. Опыт промышленной разработки на Python от 1 года. Опыт работы с очередями задач (Celery). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 353,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40612238?query=Python",
+    "title": "Python Developer",
+    "company": " Тинькофф",
+    "description": "Проектирование компонентов систем. Организация процесса разработки. Написание и ревью кода. Наставление менее опытных коллег.Отличное знание Python 3 и опыт промышленной разработки на Python от трех лет. Опыт многопоточного и асинхронного программирования. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 354,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40764521?query=Python",
+    "title": "Python разработчик (FastAPI)",
+    "company": " HuskyJam",
+    "description": "Есть опыт разработки микросервисной архитектуры. Имеешь опыт коммерческой разработки на Python не менее 2 лет. Превосходно болтаешь и чатишься на...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 355,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40261872?query=Python",
+    "title": "Backend QA Automation Engineer (Python)",
+    "company": " Voximplant",
+    "description": "Тестирование API Voximplant. Поддержка и развитие существующего фреймворка тестирования. Улучшение процессов CI\\CD со стороны тестирования системы. Развитие документации на...Опыт написания автотестов от 1 года на стеке Python + Pytest. SQL на базовом уровне (написание простых запросов с SELECT...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 356,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40743750?query=Python",
+    "title": "Python/JS Developer",
+    "company": "ООО Умный Код",
+    "description": "Разработкой корпоративных и бизнес-приложений, разработкой web. Разработкой интеграций с различными внешними системами. Участвовать в полном цикле разработки: программирование, тестирование...Python (Odoo Framework Backend/Django/Flask). PostgreSQL (желательно со знанием непосредственно SQL). HTML/XML/CSS. GIT. JS/JQuery. Python. Django. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 357,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41114331?query=Python",
+    "title": "Python Developer/DevOps",
+    "company": " Актив",
+    "description": "Участвовать в написании и доработке существующих внутренних продуктов на Python (локальные REST API сервисы). - Настраивать нагруженные тестовые стенды со множеством...Знание Python. Понимание процессов разработки ПО. Желание работать в команде. Навыки администрирования Unix. Сможете быстро разобраться или имеете опыт со...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 358,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/39782469?query=Python",
+    "title": "Python разработчик",
+    "company": " Билайн",
+    "description": "Участие в планировании и проектировании задач. Разработка серверной части web-приложений на языке Python. Проведение code review. Написание UNIT и...Уверенное знание Python. Опыт работы с Django/DjangoRestFramework. Навыки программирования (ООП, паттерны, чистый код). Опыт командной работы с системой контроля...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 359,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40819071?query=Python",
+    "title": "Python/Django разработчик (Back-end разработчик)",
+    "company": " HIPER",
+    "description": "Разработка API. Интеграция сторонних сервисов. Участие в полном цикле разработки - проектирование, программирование, тестирование, поддержка. Контролирование качества кода. Администрирование серверов. Уверенное знание python3. Знание сетевых протоколов HTTP, WebSocket. Продвинутое знание Django (Django REST Framework). Знание SQL, опыт работы с...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 360,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/35871016?query=Python",
+    "title": "Разработчик Python",
+    "company": "ООО НТ Прогресс",
+    "description": "Разработкой Web части NTPro для администрирования торговой платформы и анализа её данных. Разработкой различных вспомогательных, инфраструктурных, аналитических и Web сервисов.Хороших знаний и опыта работы с Python. Опыта работы с Postgres SQL, будем рады опыту работы с другими базами данных. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 361,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41136745?query=Python",
+    "title": "Python разработчик",
+    "company": " ПИК-БРОКЕР",
+    "description": "Разработка и поддержка веб-приложений (скрапинг данных; оцифровка, поддержание и развитие бэк офиса процесса покупки/продажи квартир). Внедрение DS решений...Backend: Python 3, Flask, Nginx, Postgresql. Toolkit: Docker, git, Jira, Gitlab, Sentry. Имеешь опыт работы с современными web фреймворками, например...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 362,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40812005?query=Python",
+    "title": "Data Scientist",
+    "company": " Доценко Дарья",
+    "description": "Работа с редкими данными.Законченное высшее образование. Уверенные навыки программирования на Python (не менее 2 лет). Участие в соревнованиях по машинному обучению. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 363,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/37583293?query=Python",
+    "title": "Python developer",
+    "company": " Руформ",
+    "description": "Backend сайта и внутренних сервисов. Highload-сервисы Go/async Python. Системы обработки видео. Системы балансировки нагрузки и хранения больших файлов...Опыт разработки высоконагруженных web-проектов на Python. Опыт работы с реляционными базами данных и хорошие знания SQL. Желание участвовать в...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 364,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40969780?query=Python",
+    "title": "Backend разработчик (Python)",
+    "company": "ООО Флайдата",
+    "description": "Разработка, code review, рефакторинг кода. Сопровождение и документирование написанного кода. Участие в проектировании систем. Оптимизация серверной части под высокие нагрузки.Python 3. Flask, aiohttp, Django Rest Framework. PostgreSQL, Redis, ElasticSearch. Kafka. Docker. Опыт разработки Python(2.7/3) – от 3...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 365,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41154087?query=Python",
+    "title": "Python разработчик (FastApi)",
+    "company": " idalite",
+    "description": "Участие в написании ТЗ. Разработка и проектирование проекта от идеи до воплощения. Разработка распределенных систем. Разработка API. Интеграция сторонних сервисов. Опыт работы с контейнерами docker. Практический опыт автоматизации развертывания приложений. Python3. Asyncio. Flask/Starlette/FastAPI. SQLAlchemy. Pytest. Celery. Redis. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 60 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 366,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/41156916?query=Python",
+    "title": "Senior Python/Django Web Developer",
+    "company": "ООО Любительская Футбольная Лига",
+    "description": "Аудит и экспертная оценка уже существующего стека технологий проекта. Программная доработка развития проекта по уже готовому подробному ТЗ, скорректированному на...Экспертное знание Python/PostgreSQL/Django/, опыт работы - от 6 лет. Желательно знание PHP/MySQL (часть проекта переносится с него). ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "150 000-200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 367,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40041376?query=Python",
+    "title": "Разработчик / Инженер-программист (Python)",
+    "company": " NGENIX",
+    "description": "NGENIX – провайдер облачных сервисов защиты и ускорения веб-ресурсов. Высоконагруженные распределенные системы дистрибуции и кэширования данных. Кластерные системы обработки массивов...Наши ожидания относительно знаний, навыков, опыта: Опыт коммерческой разработки на Python под Unix - не менее 3-х лет, опыт работы...",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 230 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 368,
+  "fields": {
+    "url": "https://vladimir.hh.ru/vacancy/40893120?query=Python",
+    "title": "Back-end Программист-разработчик",
+    "company": "ООО Верме",
+    "description": "Основной сервис планирования: клиент - самописный MVC-подобный движок, отдельные компоненты на vue.js, графика на canvas, сервер - Django, Python, PostgreSQL. ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договоренности"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 369,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/veduschij-programmist-python-35441449.html",
+    "title": "Ведущий программист Python",
+    "company": "ФК ПУЛЬС",
+    "description": "Участие в разработке внутренних проектов компании: сайт, портал, системы учета/сбора данных и другиеОтличное знание Python 3.7, Django>=2.0, DRF, Celery. Хорошее знание SQL и опыт работы с реляционными базами данных: MySql\\…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 370,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/razrabotchik-python-35268809.html",
+    "title": "Разработчик Python",
+    "company": "CGF",
+    "description": "Разработка плагинов и инструментов для программы Autodesk Maya. Написание скриптов и утилит на Python с использованием Maya APIЗнание Python. Умение разбираться в чужом коде. Умение работать в команде. Быстрая обучаемость. Инициативность в решении…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 371,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/backend-developer-35315606.html",
+    "title": "Backend developer (Python)",
+    "company": "NZT GROUP",
+    "description": "Реализация веб версии платформы для общения. Создание API для взаимодействия с Android и iOS приложениями. Обеспечение высокой…Отличное знание Python. Опыт проектирования высоконагруженных сервисов. Уверенное знание Git, SQL,Django. Опыт проектирования…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "250 000 — 300 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 372,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/teamlead-backend-35107627.html",
+    "title": "Teamlead Backend (Python)",
+    "company": "Фабрика Решений",
+    "description": "Руководить командой разработки. Проектировать архитектурных решений и их документирование. Ставить технические задачи команде…Опыт работы в роли системного архитектора или ведущего разработчика не менее 2 лет. Опыт веб-разработки от одного года, программирования…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 373,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/senior-qa-35466316.html",
+    "title": "Senior QA (auto, Python)",
+    "company": "New.HR",
+    "description": "Автоматическое тестирование модулей продукта (ручное только на период изучения продукта) и составление тестовой документацииОпыт в тестирования десктопных приложений и/или GUI от 3 лет. Опыт разработки сервисов или тестов на Python от 3 лет. Высшее…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 374,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/programmist-python-35284793.html",
+    "title": "Программист Python",
+    "company": "АВ Софт",
+    "description": "Разработка приложений для анализа и сбора данных. Разработка библиотек. Разработка микросервисовОпыт программирования на Python. Знание принципов ООП. Знание классических структур данных и алгоритмов. Опыт работы с СУБД",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 375,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/analitik-dwh-35453856.html",
+    "title": "Аналитик DWH",
+    "company": "Сбербанк",
+    "description": "Интересно собрать «соцсеть по всем юрикам России и СНГ». Мы, команда разработки ДИТ Риски Сбербанка набираем увлекающихся…Опыт работы (от 1 года) разработчиком на любом языке. Опыт работы (от 1 года) бизнес-аналитиком с функцией выборки и подготовки…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 376,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/javascript-developer-35460824.html",
+    "title": "JavaScript developer",
+    "company": "Emerson Croft",
+    "description": "Develop interactive web-based and desktop GUI applications. Support and develop the existing codebase. Develop and integrate…Experience using ReactJS/AngularJS. Background with Node.js. Awareness of software architecture, design patterns, and OOP",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 377,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/data-engineer-35273650.html",
+    "title": "Data Engineer",
+    "company": "HR Prime",
+    "description": "Создавать и улучшать процессы обработки данных. Разрабатывать схемы подключения новых источников в DataLake. Принимать участие…Знания принципов работы БД, построения ХД. Опыты работы разработки ETL процессов (SSIS, NiFi, Pentaho, Informatica, Spark)",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 200 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 378,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/analitik-dannyh-35387855.html",
+    "title": "Аналитик данных",
+    "company": "ГКУ Центр организации дорожного движения Правительства Москвы",
+    "description": "Разработка алгоритмов решения различных аналитических задач в области безопасного дорожного движения. Выполнение статистического…Высшее техническое образование. Опыт работы в аналогичной должности (весомым преимуществом будет близкая сфера). Опыт работы…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 80 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 379,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/programmist-po-35273207.html",
+    "title": "Программист ПО",
+    "company": "ЛАБОРАТОРИЯ ИНТЕЛЛЕКТУАЛЬНЫХ СИСТЕМ",
+    "description": "Поддержка и разработка новых пользовательских приложения на C/C++, включающих модули обработки данных от внешних устройств…Опыт программирования на C/С++, написание Makefile. Опыт разработки приложений под Linux, желание работать с ядром. Знание…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 380,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/back-end-developer-35292223.html",
+    "title": "Back-end developer",
+    "company": "Технопарк «Сколково»",
+    "description": "Проектирование, разработка, тестирование и поддержка бэкендов. Проектирование структур баз данных. Разработка модулей к существующим…Опыт работы с Python, Ruby, TypeScript, JavaScript. Опыт проектирования баз данных. Понимание принципов работы клиент-серверных…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 381,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/sistemnyj-administrator-linux-35273471.html",
+    "title": "Системный администратор Linux",
+    "company": "ТЕЛЕКОНТАКТ",
+    "description": "Администрированием Apache Kafka. Администрированием систем на базе ОС Linux. Настройкой и сопровождением серверов приложений…Даже обладая обширными знаниями в этой области, придя к нам, вы поймете, как много вы еще не знаете. Какого коллегу мы ищем",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 60 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 382,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/veduschij-sistemnyj-administrator-zabbix-35050854.html",
+    "title": "Ведущий системный администратор Zabbix",
+    "company": "Филиал ФКУ Налог-Сервис ФНС России по ЦОД в г.Москве",
+    "description": "Администрирование и развитие системы мониторинга Zabbix. Расширение функционала системы мониторинга путем интеграции со сторонними…Образование высшее. Опыт работы с Zabbix. Обязательно уверенное знание ОS Linux и Windows на уровне администратора. Знание…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 383,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/qa-specialist-35397169.html",
+    "title": "QA-специалист, QA-тестировщик (удаленно)",
+    "company": "Консалтинговая компания",
+    "description": "Создание новых банковских сервисов с микросервисной архитектурой. Функциональное и интеграционное тестирование сервисов (…Знание жизненного цикла программного обеспечения и теории тестирования, опыт желателен 2 года по данному профилю. Знание…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 140 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 384,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/veduschij-specialist-informacionnyh-tehnologij-35312843.html",
+    "title": "Ведущий специалист информационных технологий",
+    "company": "Федеральное казначейство",
+    "description": "Формирование, актуализация и распространение нормативно справочной информации применяемой в повседневной работе бухгалтерского…Навык создания сложных отчетов (приветствуется). Готовность работать в режиме многозадачности при необходимости. Умение разбираться…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "45 000 — 55 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 385,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/razrabotchik-javascript-35268983.html",
+    "title": "Разработчик JavaScript",
+    "company": "Кадровое агентство IT and Digital",
+    "description": "Разработка фронт-офисного ПО (построение единого интерфейса приложения при взаимодействии с микросервисами). Взаимодействие…О компании: Наша компания реализует ряд проектов разработки в крупных компаниях преимущественно на проектах компаний финансовой…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "от 230 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 386,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/risk-analitik-35268376.html",
+    "title": "Риск-аналитик",
+    "company": "КонсалтПромТорг",
+    "description": "Внедрение скоринговых систем оценки пользователей (физических лиц) и участие в ее разработке и настройке. Разработка риск…Умение работать со скоринговыми системами. Высшее математическое/финансовое образование. Опыт участия в проектах инновац…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 387,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/konsultant-po-informacionnym-tehnologiyam-i-telekommunikaciyam-35356196.html",
+    "title": "Консультант по информационным технологиям и телекоммуникациям",
+    "company": "Adecco Russia",
+    "description": "Организация решений по технической поддержке. Сбор и анализ информации о причинах отклонений в работе поддерживаемых системЗнание администрирования операционных систем Linux (RedHat / CentOS 7). Знание сети (LAN, TCP / IP, протоколы и услуги). Знание…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "до 150 000 руб."
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 388,
+  "fields": {
+    "url": "https://www.superjob.ru/vakansii/junior-backend-razrabotchik-35397777.html",
+    "title": "Junior Backend-разработчик",
+    "company": "Оптиком, компания",
+    "description": "Работа над сайтом компании. Работа над внутренними проектами и сервисами. Развитие существующего и создание нового функционалаПонимание принципов работы клиент-серверных приложений. Знание ООП. Знание php. Знание sql. Опыт работы с PostgreSQL. Знакомство…",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-01-04",
+    "salary": "По договорённости"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 1,
+  "fields": {
+    "timestamp": "2021-01-04",
+    "data": [
+      {
+        "url": "https://www.rabota.ru/vacancy/?query=python&sort=relevance",
+        "title": "Div dose not exist"
+      },
+      {
+        "url": "https://hh.ru/search/vacancy?clusters=true&area=1&enable_snippets=true&salary=&st=searchVacancy&text=Python",
+        "title": "Div dose not exist"
+      },
+      {
+        "url": "https://www.superjob.ru/vacancy/search/?keywords=Python&geo%5Bt%5D%5B0%5D=4",
+        "title": "Div dose not exist"
+      }
+    ]
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 7,
+  "fields": {
+    "timestamp": "2021-01-07",
+    "data": {
+      "user_data": [
+        {
+          "city": "Химки",
+          "language": "С++",
+          "email": "test@inf.com"
+        },
+        {
+          "city": "Oslo",
+          "language": "Go",
+          "email": "test@info.ru"
+        }
+      ]
+    }
+  }
+},
+{
+  "model": "scraping.urls",
+  "pk": 1,
+  "fields": {
+    "city": 1,
+    "language": 1,
+    "url_data": {
+      "hh": "https://hh.ru/search/vacancy?clusters=true&area=1&enable_snippets=true&salary=&st=searchVacancy&text=Python",
+      "superjob": "https://www.superjob.ru/vacancy/search/?keywords=Python&geo%5Bt%5D%5B0%5D=4",
+      "rabota": "https://www.rabota.ru/vacancy/?query=python&sort=relevance"
+    }
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$TGmHzw79QkEb$9hIZAQo6CyyPUjcsYPtDKPxBpb6OnVIQgAsS/VvOADI=",
+    "last_login": "2021-01-08T21:48:17.520Z",
+    "email": "admin@admin.com",
+    "is_active": true,
+    "is_admin": true,
+    "city": 1,
+    "language": 1,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$C6HYWZVQilmU$5Dnfn0aWh2npWb/8LOxc4l2DD4wl21/ybRraU15+vGU=",
+    "last_login": null,
+    "email": "test@mail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 1,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$qLfku6RHsVIV$YDYQHqKZ3QMoHBrfbVd0wariiwgDgL/9HsqxCKBVOg0=",
+    "last_login": "2020-12-29T17:26:36.800Z",
+    "email": "test3@test.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 3,
+    "language": 1,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$r0I2F99HrqJs$OQ4CdLLz1Kjxhmlax7bmJxCmuYOVP8cod6aTqj6g//Y=",
+    "last_login": "2020-12-30T11:31:31.498Z",
+    "email": "test1@test.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 1,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$10bcKxOvQ2S6$Mx+YY1c5hnn7xPr5bHvPOmQPlRFQnmcDttYOBjakdJU=",
+    "last_login": "2021-01-01T20:29:45.947Z",
+    "email": "fortest.django1234@gmail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 1,
+    "send_email": true
+  }
+}
+]
