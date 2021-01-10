@@ -15,7 +15,7 @@ import django
 django.setup()
 
 from scraping.models import Vacancy, City, Language, Error, Urls
-from scraping.parser import *
+from scraping.parser import for_hh, for_superjob, for_rabota
 
 User = get_user_model()
 
