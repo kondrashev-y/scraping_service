@@ -2,7 +2,9 @@ import codecs
 import os, sys
 import asyncio
 import datetime
-import ast
+# import ast
+# ast.literal_eval()
+
 
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
@@ -39,14 +41,14 @@ def get_settings():
 
 def get_urls(_settings):
     qs = Urls.objects.all().values()
-    url_dict = {(q['city_id'], q['language_id']): ast.literal_eval(q['url_data']) for q in qs}
+    url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
     urls = []
     for pair in _settings:
         if pair in url_dict:
             tmp = {}
             tmp['city'] = pair[0]
             tmp['language'] = pair[1]
-            tmp['url_data'] = ast.literal_eval(url_dict[pair])
+            tmp['url_data'] = url_dict[pair]
             urls.append(tmp)
     print('urls', urls)
     return urls
