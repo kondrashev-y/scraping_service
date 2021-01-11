@@ -39,37 +39,46 @@
 <!--</div>-->
 {% if object_list %}
 
-  <div class="col-md-6 mx-auto">
-  <nav aria-label="Page navigation">
-    <ul class="pagination">
-      <li class="page-item">
-          {% if page_obj.has_previous %}
-        <a class="page-link"
-           href="?city={{ city }}&language={{ language }}&page={{ page_obj.previous_page_number }}"
-           aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-          {% endif %}
-      </li>
-       {% for page in page_obj.paginator %}
-      <li class="page-item {% if page.number == page_obj.number %} active {% endif %}">
-          <a class="page-link" href="?city={{ city }}&language={{ language }}&page={{ page.number }}">
-              {{ page.number }}
-          </a></li>
-       {% endfor %}
-      <li class="page-item">
-           {% if page_obj.has_next %}
-        <a class="page-link"
-           href="?city={{ city }}&language={{ language }}&page={{ page_obj.next_page_number }}"
-           aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-          {% endif %}
-      </li>
-    </ul>
-  </nav>
-  </div>
+
+<!--  <div class="col-md-6 mx-auto">-->
+<!--  <nav aria-label="Page navigation">-->
+<!--    <ul class="pagination">-->
+<!--      <li class="page-item">-->
+<!--          {% if page_obj.has_previous %}-->
+<!--        <a class="page-link"-->
+<!--           href="?city={{ city }}&language={{ language }}&page={{ page_obj.previous_page_number }}"-->
+<!--           aria-label="Previous">-->
+<!--          <span aria-hidden="true">&laquo;</span>-->
+<!--        </a>-->
+<!--          {% endif %}-->
+<!--      </li>-->
+<!--       {% for page in page_obj.paginator %}-->
+<!--      <li class="page-item {% if page.number == page_obj.number %} active {% endif %}">-->
+<!--          <a class="page-link" href="?city={{ city }}&language={{ language }}&page={{ page.number }}">-->
+<!--              {{ page.number }}-->
+<!--          </a></li>-->
+<!--       {% endfor %}-->
+<!--      <li class="page-item">-->
+<!--           {% if page_obj.has_next %}-->
+<!--        <a class="page-link"-->
+<!--           href="?city={{ city }}&language={{ language }}&page={{ page_obj.next_page_number }}"-->
+<!--           aria-label="Next">-->
+<!--          <span aria-hidden="true">&raquo;</span>-->
+<!--        </a>-->
+<!--          {% endif %}-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </nav>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+{% include 'include/pagination.html' %}
+
+
+
 </div>
+
 
 
 <!--<div class="row">-->
@@ -97,22 +106,6 @@
 
 
 {% endif %}
-
-
-<!--<div class="rov">-->
-<!--  <div class="col-md-6 ">-->
-<!--    <form method="GET" action="{% url 'list' %}">-->
-<!--      <div class="form-group row">-->
-<!--        <div class="col-auto">-->
-<!--          {{ form.as_p }}-->
-<!--    <button type="submit" class="btn btn-primary">Найти</button>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </form>-->
-<!--  </div>-->
-<!--</div>-->
-
-
 
 {% endblock %}
 

@@ -35,15 +35,15 @@ jobs, errors = [], []
 def get_settings():
     qs = User.objects.filter(send_email=True).values()
     settings_lst = set((q['city_id'], q['language_id']) for q in qs)
-    print('settings_lst', settings_lst)
+    # print('settings_lst', settings_lst)
     return settings_lst
 
 
 def get_urls(_settings):
     qs = Urls.objects.all().values()
-    print('qs', qs)
+    # print('qs', qs)
     url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
-    print('url_dict', url_dict)
+    # print('url_dict', url_dict)
     urls = []
     for pair in _settings:
         if pair in url_dict:
@@ -54,9 +54,9 @@ def get_urls(_settings):
                 tmp['url_data'] = ast.literal_eval(url_dict[pair])
             else:
                 tmp['url_data'] = url_dict[pair]
-            print('type!!!!', type(url_dict[pair]))
+            # print('type!!!!', type(url_dict[pair]))
             urls.append(tmp)
-    print('urls', urls)
+    # print('urls', urls)
     return urls
 
 
@@ -68,9 +68,9 @@ async def main(value):
 
 
 settings = get_settings()
-print('settings', settings)
+# print('settings', settings)
 url_list = get_urls(settings)
-print('url_list', url_list)
+# print('url_list', url_list)
 
 # city = City.objects.filter(slug='moscow').first()
 # language = Language.objects.filter(slug='python').first()
