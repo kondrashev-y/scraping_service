@@ -22,6 +22,7 @@ subject = f'Рассылка вакансий за {today}'
 text_content = f'Рассылка вакансий {today}'
 from_email = EMAIL_HOST_USER
 ADMIN_USER = EMAIL_HOST_USER
+print('from_email', from_email)
 empty = f'<h2>За {today} по вашим параметрам нет новых вакансий!</h2>'
 User = get_user_model()
 qs = User.objects.filter(send_email=True).values('city', 'language', 'email')
@@ -49,6 +50,7 @@ if users_dct:
         _html = html if html else empty
         for email in emails:
             to = email
+            print('to', to)
             msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(_html, "text/html")
             msg.send()
