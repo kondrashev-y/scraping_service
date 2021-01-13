@@ -68,7 +68,7 @@ class Vacancy(models.Model):
 class Error(models.Model):
     """Ошибки при скрапинге"""
     timestamp = models.DateField(auto_now_add=True, verbose_name='Дата создания ошибки')
-    data = jsonfield.JSONField()
+    data = models.JSONField()
     
     class Meta:
         verbose_name = 'Ошибка'
@@ -82,7 +82,7 @@ class Urls(models.Model):
     """Адреса для скрапинга"""
     city = models.ForeignKey('City', verbose_name='Город', on_delete=models.CASCADE)
     language = models.ForeignKey('Language', verbose_name='Язык программирования', on_delete=models.CASCADE)
-    url_data = jsonfield.JSONField(default=default_url)
+    url_data = models.JSONField(default=default_url)
     
     class Meta:
         unique_together = ('city', 'language')
@@ -92,5 +92,3 @@ class Urls(models.Model):
     def __str__(self):
         return f'{self.city.name} - {self.language.name}'
 
-
-            
