@@ -89,5 +89,8 @@ class Urls(models.Model):
         verbose_name = 'Адрес URL'
         verbose_name_plural = 'Адреса URL'
 
+    def __str__(self):
+        return f'{self.city.name} - {self.language.name}'
+
 
             
