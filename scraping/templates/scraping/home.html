@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% block title%} Вакансии {% endblock %}
+
 {% block content %}
 <div class="jumbotron">
   <h1 class="display-5">Привет, это сервис по сбору и рассылки вакансий</h1>
@@ -8,7 +10,7 @@
   <h5 class="my-3">Для просмотра доступных вакансий заполните форму</h5>
   <form method="GET" class="form-inline my-0 mr-sm-2" action="{% url 'vacancy_list' %}">
     {{ form.as_table }}
-    <button type="submit" class="btn btn-primary">Найти</button>
+    <button type="submit" class="btn btn-primary mx-3">Найти</button>
   </form>
 </div>
 

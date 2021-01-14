@@ -1,6 +1,7 @@
 from django.shortcuts import render
+from django.urls import reverse_lazy
 
-from .forms import FindForm
+from .forms import FindForm, CreateVacancyForm
 from .models import Vacancy
 
 from django.views import generic
@@ -28,7 +29,7 @@ class VacancyView(generic.ListView):
                 _filter['language__slug'] = language
         else:
             _filter['city__slug'] = city
-        queryset = Vacancy.objects.filter(**_filter)
+        queryset = Vacancy.objects.filter(**_filter).select_related('city', 'language')
         return queryset
 
     def get_context_data(self, **kwargs):
@@ -37,3 +38,18 @@ class VacancyView(generic.ListView):
         context['city'] = self.request.GET.get('city')
         context['language'] = self.request.GET.get('language')
         return context
+
+
+# class CreateVacancyView(generic.CreateView):
+#     model = Vacancy
+#     form_class = CreateVacancyForm
+#     template_name = 'scraping/create_vacancy.html'
+#     success_url = reverse_lazy('home')
+
+
+# class UpdateVacancyView(generic.UpdateView):
+#     model = Vacancy
+#     form_class = CreateVacancyForm
+#     template_name = 'scraping/update_vacancy.html'
+#     success_url = reverse_lazy('home')
+
