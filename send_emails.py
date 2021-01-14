@@ -22,7 +22,6 @@ subject = f'Рассылка вакансий за {today}'
 text_content = f'Рассылка вакансий {today}'
 from_email = EMAIL_HOST_USER
 ADMIN_USER = EMAIL_HOST_USER
-print('from_email', from_email)
 empty = f'<h2>За {today} по вашим параметрам нет новых вакансий!</h2>'
 User = get_user_model()
 qs = User.objects.filter(send_email=True).values('city', 'language', 'email')
@@ -86,7 +85,7 @@ urls_errors = ''
 for keys in users_dct.keys():
     if keys not in urls_dct:
         if keys[0] and keys[1]:
-            urls_errors += f'<p> Для города { city_dct[keys[0]] } и языка { language_dct[keys[1]]  } отсутствует url</a></p>'
+            urls_errors += f'<p> Для города { city_dct[keys[0]] } и языка { language_dct[keys[1]]  } отсутствует url</p>'
             subject += 'Отсутсвтующие урлы'
             content += urls_errors
 
@@ -96,11 +95,3 @@ if subject:
     msg.send()
 
 
-
-# msg = EmailMultiAlternatives(subject, text_content, from_email, ['fortest.django1234@gmail.com'])
-# msg.attach_alternative('привет мир!', "text/html")
-# msg.send()
-
-# subject, from_email, to = 'Hello', 'from@example.com', 'to@example.com'
-# text_content = 'This is an important message.'
-# html_content = '<p>This is an <strong>important</strong> message.</p>'

@@ -53,7 +53,6 @@ def update_view(request):
                 user.language = data['language']
                 user.send_email = data['send_email']
                 user.save()
-                # messages.add_message(request, messages.INFO, 'Настройки сохранены')
                 messages.success(request, 'Настройки сохранены')
                 return redirect('accounts:update')
         form = UserUpdateForm(
@@ -83,7 +82,6 @@ def contact_view(request):
             city = data.get('city')
             language = data.get('language')
             email = data.get('email')
-            # user = request.user
             user_data = {'city': city, 'language': language, 'email': email}
             qs = Error.objects.filter(timestamp=datetime.date.today())
             if qs.exists():

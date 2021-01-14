@@ -17,11 +17,7 @@ headers = [
     {'User-Agent': 'Mozilla/5.0 (X11; OpenBSD i386) AppleWebKit/537.36 (KHTML, like Gecko) '
                    'Chrome/36.0.1985.125 Safari/537.36'},
     {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X x.y; rv:42.0) Gecko/20100101 Firefox/42.0'}
-
     ]
-url = 'https://hh.ru/search/vacancy?clusters=true&area=1&enable_snippets=true&salary=&st=searchVacancy&text=Python'
-
-# domain = 'https://hh.ru'
 
 
 def for_hh(url, city=None, language=None):
@@ -34,10 +30,8 @@ def for_hh(url, city=None, language=None):
             soup = BS(resp.content, 'html.parser')
             main_div = soup.find('div', attrs={'class': 'vacancy-serp'})
             if main_div:
-                # div_list = main_div.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy'})
                 div_list = main_div.find_all('div', attrs={'class': 'vacancy-serp-item'})
                 for div in div_list:
-                    # title = div.find('a', attrs={'data-qa': 'vacancy-serp__vacancy-title'})
                     title = div.find('span', attrs={'class': 'g-user-content'})
                     href = title.a['href']
                     place = div.find('span', attrs={'data-qa': 'vacancy-serp__vacancy-address'}).text
@@ -57,8 +51,6 @@ def for_hh(url, city=None, language=None):
                 errors.append({'url': url, 'title': 'Div dose not exist'})
         else:
             errors.append({'url': url, 'title': 'Page do not response'})
-    # for i in jobs:
-    #     print(i[title], i[salary])
     return jobs, errors
 
 
@@ -112,7 +104,6 @@ def for_rabota(url, city=None, language=None):
         resp = requests.get(url, headers=headers[randint(0, 4)])
         if resp.status_code == 200:
             soup = BS(resp.content, 'html.parser')
-            # main_div = soup.find('main', attrs={'class': 'vacancy-search-page__main'})
             main_div = soup.find('div', attrs={'class': 'r-serp__infinity-list'})
             if main_div:
                 div_list = main_div.find_all('div', attrs={'class': 'vacancy-preview-card__top'})
@@ -144,6 +135,7 @@ def for_rabota(url, city=None, language=None):
 if __name__ == '__main__':
     url = 'https://www.superjob.ru/vacancy/search/?keywords=Python&geo%5Bt%5D%5B0%5D=4'
     # url = 'https://www.rabota.ru/vacancy/?query=python&sort=relevance'
+    # url = 'https://hh.ru/search/vacancy?clusters=true&area=1&enable_snippets=true&salary=&st=searchVacancy&text=Python'
     jobs, errors = for_superjob(url)
     # h = codecs.open('work.html', 'w', 'utf-8')
     # h.write(str(resp.text))

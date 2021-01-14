@@ -5,7 +5,6 @@ import datetime
 import ast
 
 
-
 from django.contrib.auth import get_user_model
 from django.db import DatabaseError
 
@@ -31,19 +30,15 @@ parsers = (
 jobs, errors = [], []
 
 
-
 def get_settings():
     qs = User.objects.filter(send_email=True).values()
     settings_lst = set((q['city_id'], q['language_id']) for q in qs)
-    # print('settings_lst', settings_lst)
     return settings_lst
 
 
 def get_urls(_settings):
     qs = Urls.objects.all().values()
-    # print('qs', qs)
     url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
-    # print('url_dict', url_dict)
     urls = []
     for pair in _settings:
         if pair in url_dict:
@@ -54,9 +49,7 @@ def get_urls(_settings):
                 tmp['url_data'] = ast.literal_eval(url_dict[pair])
             else:
                 tmp['url_data'] = url_dict[pair]
-            # print('type!!!!', type(url_dict[pair]))
             urls.append(tmp)
-    # print('urls', urls)
     return urls
 
 
@@ -68,12 +61,8 @@ async def main(value):
 
 
 settings = get_settings()
-# print('settings', settings)
 url_list = get_urls(settings)
-# print('url_list', url_list)
 
-# city = City.objects.filter(slug='moscow').first()
-# language = Language.objects.filter(slug='python').first()
 
 loop = asyncio.get_event_loop()
 tmp_tasks = [(func, data['url_data'][key], data['city'], data['language'])
@@ -83,15 +72,6 @@ if tmp_tasks:
     tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
     loop.run_until_complete(tasks)
     loop.close()
-
-
-# for data in url_list:
-#     for fun, key in parsers:
-#         url = data['url_data'][key]
-#         j, e = fun(url, city=data['city'], language=data['language'])
-#         jobs += j
-#         errors += e
-
 
 for job in jobs:
     v = Vacancy(**job)
@@ -108,11 +88,6 @@ if errors:
         er.save()
     else:
         err = Error(data=f'errors:{errors}').save()
-
-# h = codecs.open('work.txt', 'w', 'utf-8')
-# h.write(str(jobs))
-# h.close()
-
 
 ten_days_ago = datetime.date.today() - datetime.timedelta(10)
 Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()

@@ -34,6 +34,7 @@ cyrillic_letters = {
         u'я': u'ya'
     }
 
+
 def for_cyrillic_to_eng(text:str):
     text = text.replace(' ', '_').lower()
     tmp = ''

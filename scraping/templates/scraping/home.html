@@ -7,30 +7,10 @@
   <hr class="my-4">
   <h5 class="my-3">Для просмотра доступных вакансий заполните форму</h5>
   <form method="GET" class="form-inline my-0 mr-sm-2" action="{% url 'vacancy_list' %}">
-          {{ form.as_table }}
+    {{ form.as_table }}
     <button type="submit" class="btn btn-primary">Найти</button>
-    </form>
-
+  </form>
 </div>
-
-<!--<div class="row">-->
-<!--  <div class="col"><h4>Сервис по сбору и рассылки вакансий</h4> <br></div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--  <div class="col-md-6 mx-auto">-->
-<!--    <h5>Для просмотра доступных вакансий заполните форму</h5>-->
-<!--    <form method="GET" class="form-inline my-1 mr-sm-2" action="{% url 'list' %}">-->
-<!--&lt;!&ndash;      <div class="form-row align-items-center">&ndash;&gt;-->
-<!--&lt;!&ndash;        <div class="col-auto">&ndash;&gt;-->
-<!--          {{ form.as_table }}-->
-<!--    <button type="submit" class="btn btn-primary">Найти</button>-->
-<!--&lt;!&ndash;        </div>&ndash;&gt;-->
-<!--&lt;!&ndash;      </div>&ndash;&gt;-->
-<!--    </form>-->
-<!--  </div>-->
-<!--</div>-->
-
-
 
 {% endblock %}
 

@@ -10,13 +10,9 @@
   <div class="col-md-4 mx-auto">
     <h5 class="my-2">Форма входа</h5>
     <form method="POST" class="" action="">
-        {% csrf_token %}
-<!--      <div class="form-row align-items-center">-->
-<!--        <div class="col-auto">-->
-          {{ form.as_table }}
-    <button type="submit" class="btn btn-primary my-2">Войти</button>
-<!--        </div>-->
-<!--      </div>-->
+      {% csrf_token %}
+      {{ form.as_table }}
+      <button type="submit" class="btn btn-primary my-2">Войти</button>
     </form>
   </div>
 </div>
