@@ -7,12 +7,24 @@ from .forms import FindForm
 from .models import Vacancy, City
 
 from django.views import generic
+import json
 
 
 def home_view(request):
     """Начальная страничкам"""
     form = FindForm()
-    return render(request, 'scraping/home.html', {'form': form})
+
+    qs = Vacancy.objects.all().values()
+    mydict = {}
+    for i in qs:
+        mydict[i['id']] = [i['url'], i['title'], i['salary'], i['company']]
+    context = {}
+    context['my_dictionary'] = json.dumps(mydict)
+    context['form'] = form
+    print(type(context['my_dictionary']))
+    # print(context['my_dictionary'])
+    # return render(request, 'scraping/home.html', {'form': form})
+    return render(request, 'scraping/home.html', context)
 
 
 def list_view(request):
