@@ -56,12 +56,45 @@ for (let fruit of fruits) {
 //var countyData = JSON.parse(document.getElementById('my_dictionary-data').textContent);
 //alert(countyData);
 
-//var my_data = JSON.parse(document.getElementById('my_data').textContent);
-var my_data = JSON.parse(document.getElementById('my_dictionary').textContent);
+//var my_data = JSON.parse(document.getElementById('my_dictionary').textContent);
+var my_data = JSON.parse(document.getElementById('my_dictionary').innerHTML);
+my_data = JSON.parse(my_data);
+//var my_data = JSON.parse(document.getElementById('my_dictionary').textContent, function(k, v) {
+//  console.log(k); // пишем имя текущего свойства, последним именем будет ""
+//  return v;       // возвращаем неизменённое значение свойства
+//});
+//var my_data = JSON.parse(document.getElementById('my_dictionary').innerHTML);
+//var my_data = document.getElementById('my_dictionary').innerHTML;
+
+for (key in my_data) {
+  if (my_data.hasOwnProperty(key)) {
+    //ключ = key
+    //значение = person[key]
+    console.log("Ключ = " + key);
+    console.log("Значение = " + my_data[key]);
+  }
+}
+//
+//
+//for (var i=0; i<=my_data.moscow.length-1; i++) {
+//  if (my_data.moscow[i].hasOwnProperty(key)) {
+//    console.log("Элемент [ "+ i +" ] = " + my_data.moscow[i]);
+//  }
+
+
+//var user_list = [];
+//
+//$.each( my_data, function( key, value ) {
+//    user_list.push( value );
+//});
+//
+//alert(typeof user_list);
+
 
 //for (let data of my_data) {
-//alert(my_data);
+//alert(data);
 //}
 
+alert(typeof my_data);
 alert(my_data);
 

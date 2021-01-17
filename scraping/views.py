@@ -14,15 +14,16 @@ def home_view(request):
     """Начальная страничкам"""
     form = FindForm()
 
-    qs = Vacancy.objects.all().values()
+    qs = City.objects.all().values()
     mydict = {}
     for i in qs:
-        mydict[i['id']] = [i['url'], i['title'], i['salary'], i['company']]
+        mydict[i['slug']] = [i['longitude'], i['latitude']]
     context = {}
-    context['my_dictionary'] = json.dumps(mydict)
+    # context['my_dictionary'] = json.dumps(mydict, sort_keys=True, indent=2, ensure_ascii=False)
+    context['my_dictionary'] = json.dumps(mydict, ensure_ascii=False)
     context['form'] = form
-    print(type(context['my_dictionary']))
-    # print(context['my_dictionary'])
+    # print(type(context['my_dictionary']))
+    print(context['my_dictionary'])
     # return render(request, 'scraping/home.html', {'form': form})
     return render(request, 'scraping/home.html', context)
 

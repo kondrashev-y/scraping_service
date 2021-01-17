@@ -12,6 +12,8 @@ class City(models.Model):
     """Города"""
     name = models.CharField(max_length=100, verbose_name='Название города', unique=True)
     slug = models.CharField(max_length=100, blank=True, unique=True)
+    longitude = models.FloatField(verbose_name='Долгота', null=True, blank=True)
+    latitude = models.FloatField( blank=True, null=True,)
 
     class Meta:
         verbose_name = 'Название города'
