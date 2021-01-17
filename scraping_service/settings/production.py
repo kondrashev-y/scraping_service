@@ -138,7 +138,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # smtp
 
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = EMAIL_HOST
