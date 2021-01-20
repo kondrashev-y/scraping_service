@@ -3,8 +3,8 @@
 {% block title%} Вакансии {% endblock %}
 
 {% block content %}
-<div class="row">
-  <div class="col-md-7 mx-auto">
+<!--<div class="row">-->
+  <div class="col-md-8 mx-auto">
     {% if object_list %}
       <h3 class="my-4 text-center"> Доступные вакансии по Вашему запросу.</h3>
     {% endif %}
@@ -25,7 +25,7 @@
     {% endfor %}
   </div>
 
-  <div class="col-md-2 ">
+  <div class="col-md-2 mt-4">
     <form method="GET" action="{% url 'vacancy_list' %}">
       <div class="form-group row">
         <div class="col-auto">
@@ -34,11 +34,17 @@
         </div>
       </div>
     </form>
+    <br>
+    {% include 'include/new_vacancy_count.html' %}
   </div>
+
+
 
 {% include 'include/pagination.html' %}
 
-</div>
+
+
+<!--</div>-->
 
 {% endblock %}
 

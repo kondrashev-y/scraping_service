@@ -1,0 +1,6 @@
+<h5 class="text-center">Новые вакансии за сегодня!</h5>
+<ul class="list-group list-group-flush">
+{% for item in count_vacancy %}
+<li class="list-group-item"> {{item.language__name}} <span class="badge badge-primary badge-pill">+{{ item.id__count }}</span></li>
+    {% endfor %}
+</ul>
