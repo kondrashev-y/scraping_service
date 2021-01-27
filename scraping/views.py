@@ -2,15 +2,26 @@ from django.shortcuts import render
 from django.urls import reverse_lazy
 
 from .forms import FindForm, CreateVacancyForm
-from .models import Vacancy
+from .models import Vacancy, Language
+
+from django.db.models import Count
 
 from django.views import generic
+
+import datetime
+
+
+def new_vacancy_count():
+    last_days = datetime.date.today()-datetime.timedelta(1)
+    count_vacancy = Vacancy.objects.filter(timestamp__gte=last_days).values('language__name').annotate(Count('id'))
+    return count_vacancy
 
 
 def home_view(request):
     """Начальная страничкам"""
     form = FindForm()
-    return render(request, 'scraping/home.html', {'form': form})
+    count_vacancy = new_vacancy_count()
+    return render(request, 'scraping/home.html', {'form': form, 'count_vacancy': count_vacancy})
 
 
 class VacancyView(generic.ListView):
@@ -37,6 +48,7 @@ class VacancyView(generic.ListView):
         context['form'] = FindForm(self.request.GET)
         context['city'] = self.request.GET.get('city')
         context['language'] = self.request.GET.get('language')
+        context['count_vacancy'] = new_vacancy_count()
         return context
 
 

@@ -3,16 +3,24 @@
 {% block title%} Вакансии {% endblock %}
 
 {% block content %}
-<div class="jumbotron">
-  <h1 class="display-5">Привет, это сервис по сбору и рассылки вакансий</h1>
-  <p class="lead">Этот сервис позволит вам узнавать о новых вакансиях в Вашем городе, так же Вы сможете подписаться на рассылку новых вакансий по интересующим параметам.</p>
-  <hr class="my-4">
-  <h5 class="my-3">Для просмотра доступных вакансий заполните форму</h5>
-  <form method="GET" class="form-inline my-0 mr-sm-2" action="{% url 'vacancy_list' %}">
-    {{ form.as_table }}
-    <button type="submit" class="btn btn-primary mx-3">Найти</button>
-  </form>
+
+<div class="col-md-10">
+  <div class="jumbotron">
+    <h1 class="display-5">Привет, это сервис по сбору и рассылки вакансий</h1>
+    <p class="lead">Этот сервис позволит вам узнавать о новых вакансиях в Вашем городе, так же Вы сможете подписаться на рассылку новых вакансий по интересующим параметам.</p>
+    <hr class="my-4">
+    <h5 class="my-3">Для просмотра доступных вакансий заполните форму</h5>
+    <form method="GET" class="form-inline my-0 mr-sm-2" action="{% url 'vacancy_list' %}">
+      {{ form.as_table }}
+      <button type="submit" class="btn btn-primary mx-3">Найти</button>
+    </form>
+  </div>
 </div>
+
+<div class="col-md-2">
+  {% include 'include/new_vacancy_count.html' %}
+</div>
+
 
 {% endblock %}
 
