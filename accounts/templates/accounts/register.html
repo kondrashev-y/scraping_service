@@ -6,19 +6,17 @@
 
 {% block content %}
 
-<div class="row">
-  <div class="col-md-4 mx-auto">
-    <h5 class="my-2">Регистрация нового пользователя</h5>
-    <form method="POST" class="" action="">
-        {% csrf_token %}
+<div class="col-md-8 mx-auto">
+  <h5 class="my-2">Регистрация нового пользователя</h5>
+  <form method="POST" class="" action="">
+      {% csrf_token %}
 <!--      <div class="form-row align-items-center">-->
 <!--        <div class="col-auto">-->
-          {{ form.as_table }}
-    <button type="submit" class="btn btn-primary my-2">Регистрация</button>
+        {{ form.as_table }}
+  <button type="submit" class="btn btn-primary my-2">Регистрация</button>
 <!--        </div>-->
 <!--      </div>-->
-    </form>
-  </div>
+  </form>
 </div>
 
 
