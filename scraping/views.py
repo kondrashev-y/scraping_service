@@ -12,7 +12,7 @@ import datetime
 
 
 def new_vacancy_count():
-    last_days = datetime.date.today()-datetime.timedelta(1)
+    last_days = datetime.date.today()
     count_vacancy = Vacancy.objects.filter(timestamp__gte=last_days).values('language__name').annotate(Count('id'))
     return count_vacancy
 

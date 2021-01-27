@@ -78,6 +78,8 @@ def for_superjob(url, city=None, language=None):
                     else:
                         company = 'Нет данных о компании'
                     description = div.find('span', attrs={'_3mfro _38T7m _9fXTd _2JVkc _2VHxz _15msI'}).text
+                    if not description:
+                        description = 'Нет информации'
                     salary = div.find('span', attrs={'class': '_3mfro _2Wp8I PlM3e _2JVkc _2VHxz'})
                     if salary:
                         salary = salary.text
